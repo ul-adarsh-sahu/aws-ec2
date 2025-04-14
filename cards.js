@@ -4582,3 +4582,1399 @@ const idfcFirstSwypEmiCreditCard = {
     "https://www.idfcfirstbank.com/credit-card/swyp-emi-credit-card",
   isActive: true,
 };
+
+const axisMyZoneCreditCard = {
+  cardName: "Axis Bank My Zone",
+  financialInstituteName: "Axis Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Lifestyle", "Entertainment", "Dining", "Shopping"],
+  cardSegment: "Entry Level",
+  cardNetwork: "Visa/ Rupay/ MasterCard", // Also available on RuPay and MasterCard
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "An entry-level credit card offering a range of lifestyle benefits including dining discounts, entertainment offers, and shopping perks.",
+  eligibilityExtras: {
+    ageLimit: "18 to 70 years",
+    minIncomeText: "Stable source of income required",
+    creditScoreRequirement: "Good credit score",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: 2,
+    rewardType: ["EDGE Reward Points"],
+    rewardRateText: "Earn 4 EDGE Reward Points for every ₹200 spent.",
+    rewardConditions:
+      "No reward points on spends for Movie, Fuel, Insurance, Wallet, Rent, Utilities, Jewellery, Education, Government Institutions, and EMI transactions.",
+    bonusCategories: [],
+    redemptionOptions: ["Travel", "Shopping", "Gift Vouchers"],
+    pointValue: 0.25,
+    expiryPolicy: "Points expire after 3 years",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "Complimentary SonyLiv Premium annual subscription worth ₹1499.",
+        value: 1499,
+        condition: "Applicable on card activation.",
+      },
+    ],
+    dining: [
+      {
+        description: "15% off at select restaurants via EazyDiner.",
+        partners: ["EazyDiner"],
+        discount: 15,
+        cap: null,
+      },
+      {
+        description:
+          " Flat Rs 120 off on food delivery at Swiggy upto 2 times.",
+        partners: ["Swiggy"],
+        discount: null,
+        cap: 2,
+      },
+    ],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 4000,
+      monthlyCap: 400,
+    },
+    entertainment: [
+      {
+        description:
+          "Buy One Get One Free on movie tickets via District app. Max ₹200 off per month.",
+        partners: ["District by Zomato"],
+        discount: 50,
+      },
+    ],
+    insurance: [],
+    conciergeServices: null,
+    other: [
+      {
+        name: "EMI Conversion",
+        description: "Convert purchases above ₹1,500 into easy EMIs.",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 4,
+      perQuarter: 1,
+      condition: "Eligible on spends of ₹50,000 in the previous 3 months.",
+      partners: null,
+      details: "Access to select domestic airport lounges in India.",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: false,
+      partners: null,
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 0,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "lifetime",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: [
+    "Individuals seeking lifestyle benefits",
+    "Frequent diners",
+    "Movie enthusiasts",
+  ],
+  keywords: [
+    "Axis Bank My Zone Credit Card",
+    "Lifestyle Credit Card",
+    "Axis Bank",
+  ],
+  applyLink:
+    "https://www.axisbank.com/retail/cards/credit-card/my-zone-credit-card",
+  termsAndConditionURL:
+    "https://www.axisbank.com/retail/cards/credit-card/my-zone-credit-card",
+  isActive: true,
+};
+
+const auVettaCreditCard = {
+  cardName: "AU Bank Vetta",
+  financialInstituteName: "AU Small Finance Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Lifestyle", "Rewards"],
+  cardSegment: "Mid-Level",
+  cardNetwork: "Visa Signature",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description:
+    "A premium lifestyle credit card offering benefits across dining, travel, and rewards with milestone perks and complimentary lounge access.",
+
+  eligibilityExtras: {
+    ageLimit: "21-60 years",
+    minIncomeText: "₹7L annually",
+    creditScoreRequirement: "750+",
+    employmentType: "Salaried or Self-Employed",
+  },
+
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Reward Points"],
+    rewardRateText:
+      "4 RP/₹100 on grocery & departmental store spends, 2 RP/₹100 on other spends, 1 RP/₹100 on utilities and telecom",
+    rewardConditions:
+      "No RP on cash, rent, education, govt, EMI, fuel, BBPS & quasi-cash transactions; Max 100 RP per utility/telecom transaction",
+    bonusCategories: [],
+    redemptionOptions: ["AU Reward Store"],
+    pointValue: null,
+    expiryPolicy: "Points expire after 2 years",
+  },
+
+  features: {
+    welcomeBenefits: [],
+    dining: [
+      {
+        description: "Discounts at select restaurants",
+        partners: ["EazyDiner"],
+        discount: 15,
+      },
+    ],
+    travel: [
+      {
+        description:
+          "2 per calender quarter complimentary domestic lounge visits/year",
+        type: "Railway",
+        quantity: 8,
+        partners: ["Visa Domestic Lounge Program"],
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 5000,
+      monthlyCap: 250,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Accidental",
+        coverageAmount: 5000000,
+        description: "Air Accident Cover",
+      },
+    ],
+    conciergeServices: "Available via AU Concierge Desk",
+    other: [
+      {
+        name: "Birthday Benefits for Card Holders",
+        description:
+          "Earn 1,000 Bonus Reward Points on completing one retail transaction on your birthday.",
+        value: 1000,
+      },
+    ],
+  },
+
+  offers: [],
+
+  milestones: [
+    {
+      spendAmount: 250000,
+      benefit: "₹1,000 worth Amazon voucher",
+      frequency: "Annual",
+    },
+    {
+      frequency: "Quarterly",
+      spendAmount: 100000,
+      benefit:
+        "500 RP at ₹50,000 and additional 1,000 RP at ₹1 lakh spends per calendar quarter",
+    },
+  ],
+
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 4,
+      perQuarter: 1,
+      condition: "A minimum spend of Rs.20,000 in a calendar quarter",
+      partners: ["Visa"],
+      details: "Access via Visa Domestic Lounge Program",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      partners: [],
+      details: "",
+    },
+  },
+
+  cardFees: {
+    joiningFee: 2999,
+    annualFee: 2999,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 150000,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: 3.49,
+  },
+
+  idealFor: ["Lifestyle Spenders", "Utility Bill Payers"],
+  keywords: [
+    "AU Bank",
+    "Vetta",
+    "Visa Signature",
+    "Lounge Access",
+    "Reward Points",
+  ],
+  applyLink:
+    "https://www.aubank.in/personal-banking/credit-cards/vetta-credit-card",
+  termsAndConditionURL:
+    "https://www.aubank.in/personal-banking/credit-cards/vetta-credit-card",
+  isActive: true,
+};
+
+const auSpontCard = {
+  cardName: "AU Bank SPONT",
+  financialInstituteName: "AU Small Finance Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Cashback", "Digital Payments"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "RuPay",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description:
+    "An entry-level credit card offering 1% cashback on UPI and other transactions, reward coins on UPI spends, and complimentary lounge access.",
+  eligibilityExtras: {
+    ageLimit: "21-60 years",
+    minIncomeText: "",
+    creditScoreRequirement: "",
+    employmentType: "",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Cashback", "Coins"],
+    rewardRateText:
+      "1% cashback on UPI and other transactions; 5 coins per UPI transaction via AU 0101 app",
+    rewardConditions:
+      "Cashback capped at ₹500 per statement cycle; excludes fuel, rent, government, education, cash withdrawals, EMIs, and insurance spends",
+    bonusCategories: [],
+    redemptionOptions: ["AU Rewardz Catalogue"],
+    pointValue: null,
+    expiryPolicy: "Coins never expire",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "500 coins on first UPI transaction via AU 0101 app",
+        value: null,
+        condition: "First UPI transaction via AU 0101 app",
+      },
+    ],
+    dining: [],
+    travel: [
+      {
+        description: "2 complimentary railway lounge accesses per quarter",
+        type: "Domestic",
+        quantity: 2,
+        partners: [],
+        condition: "",
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 5000,
+      monthlyCap: 100,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Card Liability Cover",
+        coverageAmount: null,
+        description:
+          "Zero liability on fraudulent transactions post reporting; includes protection against online frauds, phishing, card counterfeit, and skimming",
+      },
+    ],
+    conciergeServices: "",
+    other: [
+      {
+        name: "Contactless Payments",
+        description:
+          "Tap and pay securely at participating merchants for amounts up to ₹5,000 without entering a PIN",
+        value: null,
+      },
+      {
+        name: "Xpress EMI",
+        description:
+          "Convert transactions of ₹2,000 or more into easy EMI options",
+        value: null,
+      },
+      {
+        name: "Add-on Cards",
+        description:
+          "Complimentary lifetime-free add-on cards for family members",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 8,
+      perQuarter: 2,
+      condition: "Spend ₹20,000 in the previous quarter",
+      partners: ["Dreamfolks"],
+      details: "Access to select domestic airport lounges",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 299,
+    annualFee: 299,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 0,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: [
+    "UPI Users",
+    "Frequent Domestic Travelers",
+    "Entry-Level Cardholders",
+  ],
+  keywords: ["AU Bank", "SPONT", "RuPay", "Cashback", "UPI", "Lounge Access"],
+  applyLink:
+    "https://www.aubank.in/personal-banking/credit-cards/au-spont-credit-card",
+  termsAndConditionURL:
+    "https://www.aubank.in/personal-banking/credit-cards/au-spont-credit-card",
+  isActive: true,
+};
+
+const hdfcMoneybackCard = {
+  cardName: "MoneyBack+ Credit Card",
+  financialInstituteName: "HDFC Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Cashback", "Online Shopping", "Dining"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Visa",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description:
+    "An entry-level credit card offering accelerated rewards on popular online platforms and dining benefits.",
+  eligibilityExtras: {
+    ageLimit: "21-60 years (65 for self-employed)",
+    minIncomeText:
+      "₹20,000 per month (Salaried), ₹6 lakh per annum (Self-employed)",
+    creditScoreRequirement: "",
+    employmentType: "",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["CashPoints"],
+    rewardRateText:
+      "10X CashPoints on select merchants; 2 CashPoints per ₹150 on other spends",
+    rewardConditions:
+      "10X CashPoints on Amazon, Flipkart, BigBasket, Reliance Smart SuperStore, and Swiggy; capped at 2,500 CashPoints per month",
+    bonusCategories: [
+      {
+        category: "Online Shopping",
+        rate: 20,
+        cap: 2500,
+      },
+    ],
+    redemptionOptions: [
+      "Statement Credit",
+      "Flight & Hotel Bookings",
+      "Rewards Catalogue",
+    ],
+    pointValue: 0.25,
+    expiryPolicy: "CashPoints valid for 2 years from the date of transaction",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "500 CashPoints on payment of joining fee",
+        value: 500,
+        condition: "Applicable only on payment of joining membership fee",
+      },
+    ],
+    dining: [
+      {
+        description:
+          "Up to 20% off on dining at over 2,000 premium restaurants",
+        partners: ["Swiggy Dineout"],
+        discount: 20,
+        cap: null,
+      },
+    ],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 5000,
+      monthlyCap: 250,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: "",
+    other: [
+      {
+        name: "Smart EMI",
+        description: "Option to convert big spends into EMI after purchase",
+        value: null,
+      },
+      {
+        name: "Contactless Payments",
+        description:
+          "Facilitates fast, convenient, and secure payments at retail outlets",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [
+    {
+      spendAmount: 50000,
+      benefit: "₹500 gift voucher",
+      frequency: "Quarterly",
+    },
+  ],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 500,
+    annualFee: 500,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 50000,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: [
+    "Online Shoppers",
+    "Dining Enthusiasts",
+    "Entry-Level Cardholders",
+  ],
+  keywords: [
+    "HDFC Bank",
+    "MoneyBack+",
+    "Cashback",
+    "Online Shopping",
+    "Dining",
+  ],
+  applyLink:
+    "https://www.hdfcbank.com/personal/pay/cards/credit-cards/moneyback-plus",
+  termsAndConditionURL:
+    "https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/a932c3e5-ff6f-43e2-8722-cb84c2530399",
+  isActive: true,
+};
+
+const nomoAuCard = {
+  cardName: "NOMO Credit Card",
+  financialInstituteName: "AU Small Finance Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Secured", "Rewards"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Visa",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description:
+    "A secured credit card backed by a Fixed Deposit, designed to help build or improve credit history while earning rewards.",
+  eligibilityExtras: {
+    ageLimit: "18-75 years",
+    minIncomeText: "",
+    creditScoreRequirement: "",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: 2,
+    rewardType: ["Reward Points"],
+    rewardRateText: "2 Reward Points per ₹100 on retail spends",
+    rewardConditions: "",
+    bonusCategories: [],
+    redemptionOptions: ["Physical gifts", "Gadgets"],
+    pointValue: 0.25,
+    expiryPolicy: "",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "500 Reward Points on first transaction within 30 days of card setup",
+        value: 500,
+        condition: "First transaction within 30 days of card setup",
+      },
+    ],
+    dining: [],
+    travel: [
+      {
+        description:
+          "2 Complimentary Railway Lounge Access on spending ₹30,000 in previous quarter",
+        type: "Railway",
+        quantity: 8,
+        partners: [],
+        condition: "Spend ₹30,000 in previous quarter",
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 5000,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: "",
+    other: [
+      {
+        name: "Xpress EMI",
+        description:
+          "Convert transactions worth ₹2,000 or more into easy EMI options with a simple call to Customer Care",
+        value: null,
+      },
+      {
+        name: "Interest on Fixed Deposit",
+        description:
+          "Continue earning interest up to 7.5% on Fixed Deposit while enjoying credit card benefits",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 8,
+      perQuarter: 2,
+      condition: "Spend ₹30,000 in previous quarter",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 199,
+    annualFee: 0,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "",
+      amount: 0,
+    },
+    freeStatus: "lifetime",
+    foreignCurrencyMarkupFee: 0.99,
+  },
+  idealFor: [
+    "Individuals looking to build or improve credit history",
+    "Those with Fixed Deposits seeking additional benefits",
+  ],
+  keywords: [
+    "AU Small Finance Bank",
+    "NOMO Credit Card",
+    "Secured Credit Card",
+    "Fixed Deposit",
+    "Reward Points",
+  ],
+  applyLink:
+    "https://www.aubank.in/personal-banking/credit-cards/nomo-credit-card",
+  termsAndConditionURL:
+    "https://www.aubank.in/SOC_CC-MITC(with-Schedule-of-Charges).pdf",
+  isActive: true,
+};
+
+const hdfcDinersClubPrivilegeCard = {
+  cardName: "Diners Club Privilege Credit Card",
+  financialInstituteName: "HDFC Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Lifestyle", "Dining", "Travel", "Entertainment"],
+  cardSegment: "Premium",
+  cardNetwork: "Diners Club",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description:
+    "A premium lifestyle credit card offering accelerated rewards, travel perks, and exclusive memberships.",
+  eligibilityExtras: {
+    ageLimit: "21-60 years (65 for self-employed)",
+    minIncomeText:
+      "₹40,000 per month (Salaried), ₹6 lakh per annum (Self-employed)",
+    creditScoreRequirement: "",
+    employmentType: "",
+  },
+  rewards: {
+    baseRate: 4,
+    rewardType: ["Reward Points"],
+    rewardRateText:
+      "4 Reward Points per ₹150 on all spends; 5X on Swiggy and Zomato; up to 10X on SmartBuy",
+    rewardConditions:
+      "5X on Swiggy/Zomato capped at 2,500 points/month; 10X on SmartBuy with monthly caps",
+    bonusCategories: [
+      {
+        category: "Dining",
+        rate: 20,
+        cap: 2500,
+      },
+      {
+        category: "SmartBuy",
+        rate: 40,
+        cap: 4000,
+      },
+    ],
+    redemptionOptions: [
+      "Flights",
+      "Hotels",
+      "Gift Vouchers",
+      "Product Catalog",
+    ],
+    pointValue: 0.5,
+    expiryPolicy: "Points valid for 2 years from the date of accrual",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "Complimentary Annual Memberships of Swiggy One and Times Prime",
+        value: null,
+        condition:
+          "On spending ₹75,000 within the first 90 days of card issuance",
+      },
+    ],
+    dining: [
+      {
+        description: "5X Reward Points on Swiggy and Zomato",
+        partners: ["Swiggy", "Zomato"],
+        discount: null,
+        cap: 2500,
+      },
+    ],
+    travel: [
+      {
+        description:
+          "Up to 10X Reward Points on flight and hotel bookings via SmartBuy",
+        type: "Domestic & International",
+        quantity: null,
+        partners: [],
+        condition: "",
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: 500,
+    },
+    entertainment: [
+      {
+        description:
+          "Buy 1 Get 1 Free on weekend movie/non-movie tickets via BookMyShow",
+        partners: ["BookMyShow"],
+        discount: 50,
+      },
+    ],
+    insurance: [
+      {
+        type: "Air Accident Cover",
+        coverageAmount: 10000000,
+        description: "Coverage up to ₹1 crore",
+      },
+      {
+        type: "Medical Emergency Insurance",
+        coverageAmount: 2500000,
+        description: "Coverage up to ₹25 lakh",
+      },
+      {
+        type: "Travel Inconvenience Insurance",
+        coverageAmount: 50000,
+        description: "Coverage for baggage loss or delay",
+      },
+      {
+        type: "Credit Liability Cover",
+        coverageAmount: 900000,
+        description: "Coverage up to ₹9 lakh",
+      },
+    ],
+    conciergeServices: "24x7 concierge services available",
+    other: [
+      {
+        name: "Golf Privileges",
+        description: "2 complimentary golf games per quarter worldwide",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [
+    {
+      spendAmount: 150000,
+      benefit:
+        "₹1,500 voucher from Marriott, Decathlon, Barbeque Nation, O2 Spa, or Lakme Salon",
+      frequency: "Quarterly",
+    },
+  ],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 8,
+      perQuarter: 2,
+      condition: "Minimum spend of ₹15,000 in the previous calendar quarter",
+      partners: [],
+      details: "Access to over 700 lounges in India and worldwide",
+    },
+    international: {
+      available: true,
+      quantity: 8,
+      perQuarter: 2,
+      partners: [],
+      details: "Access to over 700 lounges in India and worldwide",
+    },
+  },
+  cardFees: {
+    joiningFee: 1000,
+    annualFee: 1000,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 300000,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: ["Frequent Travelers", "Dining Enthusiasts", "Lifestyle Seekers"],
+  keywords: [
+    "HDFC Bank",
+    "Diners Club",
+    "Privilege Credit Card",
+    "Reward Points",
+    "SmartBuy",
+    "Airport Lounge Access",
+  ],
+  applyLink:
+    "https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-privilege",
+  termsAndConditionURL:
+    "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=%2FPersonal%2FPay%2FCards%2FCredit+Card%2FCredit+Card+Landing+Page%2FCredit+Cards%2FSuper+Premium%2FDiners+Club+Privilege+New%2FDNP-ProductFeature-TnC.pdf",
+  isActive: true,
+};
+
+const indianOilHDFCCreditCard = {
+  cardName: "IndianOil HDFC Bank",
+  financialInstituteName: "HDFC Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Fuel", "Grocery", "Utilities"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Visa",
+  isCoBranded: true,
+  coBrandPartner: "IndianOil",
+  description:
+    "A co-branded credit card offering accelerated rewards on fuel, groceries, and utility bill payments.",
+  eligibilityExtras: {
+    ageLimit: "21-65 years",
+    minIncomeText: "₹10,000 monthly (salaried)",
+    creditScoreRequirement: "",
+    employmentType: "Salaried / Self-Employed",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Fuel Points"],
+    rewardRateText:
+      "5% Fuel Points on IndianOil fuel, groceries, and utility bill payments; 1 Fuel Point per ₹150 on other spends",
+    rewardConditions:
+      "Max 250 Fuel Points/month for first 6 months; 150 Fuel Points/month thereafter on fuel spends; 100 Fuel Points/month on groceries and utility bill payments",
+    bonusCategories: [
+      {
+        category: "Fuel",
+        rate: 5,
+        cap: 250,
+      },
+      {
+        category: "Groceries",
+        rate: 5,
+        cap: 100,
+      },
+      {
+        category: "Utility Bill Payments",
+        rate: 5,
+        cap: 100,
+      },
+    ],
+    redemptionOptions: ["Fuel Redemption at IndianOil outlets"],
+    pointValue: 0.96,
+    expiryPolicy: "",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "Complimentary IndianOil XTRAREWARDS™ membership",
+        value: null,
+        condition: "Card activation",
+      },
+    ],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: null,
+      monthlyCap: 250,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: "",
+    other: [
+      {
+        name: "Zero Lost Card Liability",
+        description: "Zero liability post reporting of card loss",
+        value: null,
+      },
+      {
+        name: "Revolving Credit",
+        description: "Avail nominal interest rate revolving credit",
+        value: null,
+      },
+      {
+        name: "Interest-Free Period",
+        description: "Up to 50 days from date of purchase",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 500,
+    annualFee: 500,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 50000,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: ["Frequent Fuel Purchasers", "Budget-Conscious Spenders"],
+  keywords: [
+    "HDFC Bank",
+    "IndianOil",
+    "Fuel Credit Card",
+    "Fuel Points",
+    "Co-branded Card",
+  ],
+  applyLink:
+    "https://www.hdfcbank.com/personal/pay/cards/credit-cards/indianoil-hdfc-bank-credit-card",
+  termsAndConditionURL:
+    "https://v.hdfcbank.com/content/dam/hdfc-aem-microsites/common-pdfs/pdf/OPM_Pricing.pdf",
+  isActive: true,
+};
+
+const tataNeuPlusHdfcCreditCard = {
+  cardName: "Tata Neu Plus HDFC Bank Credit Card",
+  financialInstituteName: "HDFC Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Shopping", "Lifestyle", "UPI"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Rupay/Visa",
+  isCoBranded: true,
+  coBrandPartner: "Tata Neu",
+  description:
+    "A co-branded credit card offering NeuCoins on Tata Neu app purchases, UPI transactions, and more, with additional benefits like lounge access and fuel surcharge waiver.",
+  eligibilityExtras: {
+    ageLimit: "21-60 years (65 for self-employed)",
+    minIncomeText:
+      "₹25,000 per month (salaried) / ₹6L annually (self-employed)",
+    creditScoreRequirement: "",
+    employmentType: "Salaried / Self-Employed",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["NeuCoins"],
+    rewardRateText:
+      "2% on Tata Neu app and partner brands, 1% on other spends, 1% on UPI spends via Tata Neu app, 0.25% on UPI spends via other apps",
+    rewardConditions:
+      "No rewards on fuel, rent, wallet loads, vouchers, government payments, or EMI transactions",
+    bonusCategories: [
+      {
+        category: "Tata Neu App & Partner Brands",
+        rate: 2,
+        cap: null,
+      },
+      {
+        category: "UPI via Tata Neu App",
+        rate: 1,
+        cap: 500,
+      },
+    ],
+    redemptionOptions: ["Tata Neu App"],
+    pointValue: 1,
+    expiryPolicy:
+      "NeuCoins expire 365 days after the last transaction where you earned or redeemed NeuCoins.",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "499 NeuCoins on Tata Neu App as reversal of 1st Year Membership Fees",
+        value: 499,
+        condition:
+          "Applicable on 1st transaction done within 30 days of card issuance; available to claim inside Tata Neu App within 60 days of such transaction",
+      },
+    ],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 5000,
+      monthlyCap: 250,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: "",
+    other: [
+      {
+        name: "Zero Lost Card Liability",
+        description:
+          "Zero liability on any fraudulent transactions made on your Credit Card upon immediate reporting",
+        value: null,
+      },
+      {
+        name: "Interest-Free Credit Period",
+        description:
+          "Up to 50 days of interest-free period from the date of purchase",
+        value: null,
+      },
+      {
+        name: "Revolving Credit",
+        description: "Available at a nominal interest rate",
+        value: null,
+      },
+      {
+        name: "Contactless Payment",
+        description:
+          "Enabled for contactless payments up to ₹5,000 without PIN",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [
+    {
+      spendAmount: 100000,
+      benefit: "Annual fee waiver",
+      frequency: "Annual",
+    },
+  ],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 4,
+      perQuarter: 1,
+      condition: "",
+      partners: ["DreamFolks"],
+      details: "₹2 will be charged to the Credit Card for the Lounge Access",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 499,
+    annualFee: 499,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 100000,
+    },
+    freeStatus: "firstYear",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: ["Tata Brand Shoppers", "UPI Users", "Lifestyle Spenders"],
+  keywords: [
+    "Tata Neu",
+    "HDFC Bank",
+    "NeuCoins",
+    "UPI Credit Card",
+    "Co-branded Card",
+  ],
+  applyLink:
+    "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card",
+  termsAndConditionURL:
+    "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card",
+  isActive: true,
+};
+
+const iciciPlatinumChipCreditCard = {
+  cardName: "ICICI Bank Platinum Chip Credit Card",
+  financialInstituteName: "ICICI Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Rewards", "Dining", "Fuel"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Visa",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description:
+    "A lifetime free credit card offering reward points on everyday spends, fuel surcharge waiver, and dining discounts.",
+  eligibilityExtras: {
+    ageLimit: "21 years and above",
+    minIncomeText: "",
+    creditScoreRequirement: "",
+    employmentType: "",
+  },
+  rewards: {
+    baseRate: 2,
+    rewardType: ["PAYBACK Points"],
+    rewardRateText:
+      "2 PAYBACK Points per ₹100 on retail purchases (excluding fuel, tax, government and rent payments); 1 PAYBACK Point per ₹100 on utilities and insurance",
+    rewardConditions: "",
+    bonusCategories: [],
+    redemptionOptions: ["PAYBACK catalog", "ICICI Bank Rewards platform"],
+    pointValue: null,
+    expiryPolicy: "",
+  },
+  features: {
+    welcomeBenefits: [],
+    dining: [
+      {
+        description:
+          "Minimum 15% savings on dining bills at over 2,500 partner restaurants across India through the Culinary Treats program",
+        partners: [],
+        discount: 15,
+        cap: null,
+      },
+    ],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 4000,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: "",
+    other: [],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 0,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 0,
+    },
+    freeStatus: "lifetime",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: ["Everyday Spenders", "Dining Enthusiasts", "Fuel Purchasers"],
+  keywords: [
+    "ICICI Bank",
+    "Platinum Chip",
+    "PAYBACK Points",
+    "Fuel Surcharge Waiver",
+    "Dining Discounts",
+  ],
+  applyLink:
+    "https://www.icicibank.com/personal-banking/cards/credit-card/platinum-chip",
+  termsAndConditionURL:
+    "https://www.icicibank.com/personal-banking/cards/credit-card/platinum-chip/key-privileges",
+  isActive: true,
+};
+
+const iciciSapphiroCreditCard = {
+  cardName: "ICICI Bank Sapphiro",
+  financialInstituteName: "ICICI Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Travel", "Lifestyle", "Dining", "Entertainment"],
+  cardSegment: "Premium",
+  cardNetwork: "Visa/Mastercard/American Express",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description:
+    "A premium credit card offering a host of lifestyle privileges including lounge access, golf rounds, dining discounts, and concierge services.",
+  eligibilityExtras: {
+    ageLimit: "21 years and above",
+    minIncomeText: "",
+    creditScoreRequirement: "",
+    employmentType: "",
+  },
+  rewards: {
+    baseRate: 2,
+    rewardType: ["ICICI Bank Reward Points"],
+    rewardRateText:
+      "2 RP/₹100 on domestic spends, 4 RP/₹100 on international spends, 1 RP/₹100 on utilities & insurance",
+
+    rewardConditions: "",
+    bonusCategories: [
+      {
+        category: "International Spends",
+        rate: 4,
+        cap: null,
+      },
+      {
+        category: "Domestic Retail",
+        rate: 2,
+        cap: null,
+      },
+      {
+        category: "Utilities and Insurance",
+        rate: 1,
+        cap: null,
+      },
+    ],
+    redemptionOptions: ["Travel", "Shopping", "Dining", "Entertainment"],
+    pointValue: null,
+    expiryPolicy: "",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "Welcome vouchers worth ₹9,000+ within 45 days of joining fee payment",
+        value: 9000,
+      },
+    ],
+    dining: [
+      {
+        description:
+          "Minimum 15% savings on dining bills at over 2,500+ restaurants.",
+        partners: ["Culinary Treats Programme"],
+        discount: 15,
+        cap: null,
+      },
+    ],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: null,
+      maxTransaction: 4000,
+      monthlyCap: null,
+    },
+    entertainment: [
+      {
+        description:
+          "Buy 1 Get 1 offer on movie tickets up to Rs. 500 per ticket, twice every month in Visa and once in MasterCard and AMEX.",
+        partners: ["BookMyShow"],
+        discount: 50,
+      },
+    ],
+    insurance: [
+      {
+        type: "Card Liability Cover (Lost Card Liability, Counterfeit/Skimming/Phishing and Online Fraud Protection)",
+        coverageAmount: 50000,
+        description:
+          "Coverage of ₹50,000 for losses due to lost card, counterfeit/ skimming/ phishing, and online fraud.",
+      },
+      {
+        type: "Personal Accident due to Air (Death only)",
+        coverageAmount: 300000000,
+        description:
+          "Coverage of ₹3 crore for accidental death due to air travel.",
+      },
+      {
+        type: "Purchase Protection",
+        coverageAmount: 140000,
+        description:
+          "Coverage of ₹1.4 lakh for loss, theft, or damage of eligible purchases made with the card.",
+      },
+      {
+        type: "Baggage Insurance",
+        coverageAmount: 25000,
+        description:
+          "Coverage of ₹25,000 for loss or damage to checked-in baggage during travel.",
+      },
+      {
+        type: "Loss of Checked-in Baggage",
+        coverageAmount: 84000,
+        description:
+          "Coverage of ₹84,000 for the loss of checked-in baggage during travel.",
+      },
+      {
+        type: "Delay of Checked-in Baggage",
+        coverageAmount: 21000,
+        description: "Compensation of ₹21,000 for delayed checked-in baggage.",
+      },
+      {
+        type: "Loss of Passport and Travel Related Documents",
+        coverageAmount: 35000,
+        description:
+          "Coverage of ₹35,000 for the loss of passport and travel documents during international travel.",
+      },
+      {
+        type: "Missing of Connecting International Flight During Transit",
+        coverageAmount: 21000,
+        description:
+          "Compensation of ₹21,000 if you miss a connecting international flight during transit.",
+      },
+      {
+        type: "Plane Hijacking",
+        coverageAmount: 100000,
+        description:
+          "Compensation of ₹1 lakh per hour (after a 12-hour deductible) in the event of plane hijacking.",
+      },
+      {
+        type: "Delay in Flight",
+        coverageAmount: 17500,
+        description:
+          "Compensation of ₹17,500 if your flight is delayed by more than 12 hours.",
+      },
+      {
+        type: "Medical Expenses for Bodily Injury caused by and arising out of Rail/Road Accident",
+        coverageAmount: 50000,
+        description:
+          "Coverage of ₹50,000 for medical expenses in case of bodily injury caused by rail or road accidents.",
+      },
+      {
+        type: "Credit Shield",
+        coverageAmount: 100000,
+        description:
+          "Coverage of ₹1 lakh for accidental death or permanent disability.",
+      },
+    ],
+    conciergeServices:
+      "24x7 concierge services for assistance with travel bookings, reservations, and more.",
+    other: [
+      {
+        name: "Golf Privileges",
+        description:
+          "Complimentary round of golf every month for every ₹50,000 retail spends in the previous calendar month, up to 4 rounds per month.",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 16,
+      perQuarter: 4,
+      condition:
+        "Spend ₹75,000 in the preceding calendar quarter to unlock complimentary access for the subsequent calendar quarter.",
+      partners: ["Visa"],
+      details:
+        "Eligible cardholders are entitled to 4 complimentary domestic airport lounge accesses per quarter.",
+    },
+    international: {
+      available: true,
+      quantity: 2,
+      perQuarter: null,
+      partners: ["Priority Pass", "DreamFolks"],
+      details:
+        "2 complimentary international airport lounge visits per calendar year.",
+    },
+  },
+  cardFees: {
+    joiningFee: 6000,
+    annualFee: 3500,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 600000,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: ["Frequent Travelers", "Lifestyle Enthusiasts", "Golfers"],
+  keywords: [
+    "ICICI Bank",
+    "Sapphiro",
+    "Premium Credit Card",
+    "Lounge Access",
+    "Golf Privileges",
+  ],
+  applyLink:
+    "https://www.icicibank.com/personal-banking/cards/credit-card/sapphiro-credit-card/key-privileges",
+  termsAndConditionURL:
+    "https://www.icicibank.com/personal-banking/cards/credit-card/sapphiro-credit-card/key-privileges",
+  isActive: true,
+};
