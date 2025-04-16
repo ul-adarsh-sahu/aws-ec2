@@ -7673,3 +7673,1293 @@ const axisBankDinersForexCard = {
     "https://www.axisbank.com/retail/forex/travel-forex-card/diners-card",
   isActive: true,
 };
+
+const citiDiamondPreferredCreditCard = {
+  cardName: "Citi Diamond Preferred Credit Card",
+  financialInstituteName: "Citibank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Balance Transfer", "Low Interest"],
+  cardSegment: "Standard",
+  cardNetwork: "Mastercard",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description:
+    "A credit card offering extended 0% introductory APR periods on purchases and balance transfers, with no annual fee, ideal for those looking to manage existing debt or finance new purchases over time.",
+  eligibilityExtras: {
+    ageLimit: "18 years and above",
+    minIncomeText: "Not Specified",
+    creditScoreRequirement: "Good to Excellent",
+    employmentType: "Not Specified",
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: [],
+    rewardRateText: "",
+    rewardConditions: "",
+    bonusCategories: [],
+    redemptionOptions: [],
+    pointValue: null,
+    expiryPolicy: "",
+  },
+  features: {
+    welcomeBenefits: [],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [
+      {
+        description:
+          "Access to Citi Entertainment® for special access to tickets for concerts, sporting events, and more.",
+        partners: [],
+        discount: null,
+        cap: null,
+      },
+    ],
+    insurance: [],
+    conciergeServices: "24/7 customer service and Citi Concierge services.",
+    other: [
+      {
+        name: "Free FICO® Score Access",
+        description:
+          "Monitor your credit health with free access to your FICO® Score.",
+        value: null,
+      },
+      {
+        name: "Mastercard® ID Theft Protection™",
+        description:
+          "Helps eliminate the worry of identity theft by monitoring the information you choose to protect and alerting you if suspicious activity is found.",
+        value: null,
+      },
+      {
+        name: "$0 Liability on Unauthorized Charges",
+        description:
+          "You're completely protected against unauthorized charges on your account.",
+        value: null,
+      },
+      {
+        name: "Digital Wallets",
+        description:
+          "Shop with confidence in millions of places online, within apps and in stores using digital wallets.",
+        value: null,
+      },
+      {
+        name: "Contactless Pay",
+        description: "Shop safely with a contactless-chip enabled card.",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 0,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "USD",
+      amount: null,
+    },
+    freeStatus: "lifetime free",
+    foreignCurrencyMarkupFee: 3,
+  },
+  idealFor: [
+    "Individuals looking to transfer balances",
+    "Those seeking low interest on new purchases",
+  ],
+  keywords: [
+    "Citi",
+    "Diamond Preferred",
+    "Balance Transfer",
+    "Low APR",
+    "No Annual Fee",
+  ],
+  applyLink:
+    "https://www.citi.com/credit-cards/citi-diamond-preferred-credit-card",
+  termsAndConditionURL:
+    "https://www.citi.com/credit-cards/citi-diamond-preferred-credit-card",
+  isActive: true,
+};
+
+const citiStrataPremierCreditCard = {
+  cardName: "Citi Strata Premier",
+  financialInstituteName: "Citibank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Travel", "Rewards", "Everyday Spending"],
+  cardSegment: "Travel",
+  cardNetwork: "Mastercard",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description:
+    "A travel rewards credit card offering high earning rates on travel and everyday purchases, with flexible redemption options through the ThankYou® Rewards program.",
+  eligibilityExtras: {
+    ageLimit: "18 years and above",
+    minIncomeText: "Not Specified",
+    creditScoreRequirement: "Good to Excellent",
+    employmentType: "Not Specified",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["ThankYou® Points"],
+    rewardRateText:
+      "Earn 10X points on Hotels, Car Rentals, and Attractions booked through CitiTravel.com; 3X points on Air Travel, Other Hotel Purchases, Restaurants, Supermarkets, Gas Stations, and EV Charging Stations; 1X point on all other purchases.",
+    rewardConditions: "Points earned on eligible purchases; exclusions apply.",
+    bonusCategories: [
+      {
+        category: "Hotels, Car Rentals, Attractions via CitiTravel.com per $1",
+        rate: 10,
+      },
+      {
+        category:
+          "Air Travel, Other Hotel Purchases, Restaurants, Supermarkets, Gas Stations, EV Charging Stations per $1",
+        rate: 3,
+      },
+      {
+        category: "All Other Purchases per $1",
+        rate: 1,
+      },
+    ],
+    redemptionOptions: [
+      "Travel",
+      "Gift Cards",
+      "Cash Back",
+      "Transfer to Airline Partners",
+    ],
+    pointValue: null,
+    expiryPolicy:
+      "Points do not expire as long as account is open and in good standing.",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "Earn 60,000 bonus ThankYou® Points after spending $4,000 in the first 3 months of account opening.",
+        value: 60000,
+        condition: "New cardmembers only; terms apply.",
+      },
+    ],
+    dining: [],
+    travel: [
+      {
+        description:
+          "$100 Annual Hotel Benefit: Get $100 off a single hotel stay of $500 or more (excluding taxes and fees) when booked through CitiTravel.com.",
+        type: "International",
+        quantity: 1,
+        partners: [],
+        condition: "Once per calendar year.",
+      },
+      {
+        description: "No Foreign Transaction Fees on purchases.",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: "",
+      },
+      {
+        description:
+          "Trip Cancellation and Interruption Protection up to $5,000 per trip.",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: "Must pay for trip with the card; terms apply.",
+      },
+      {
+        description:
+          "Trip Delay Protection up to $500 per trip for delays over 6 hours.",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: "Must pay for trip with the card; terms apply.",
+      },
+      {
+        description:
+          "Lost or Damaged Luggage Protection up to $3,000 per trip.",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: "Must pay for trip with the card; terms apply.",
+      },
+      {
+        description: "MasterRental Coverage for rental cars.",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition:
+          "Must decline rental company's collision/damage waiver and pay with the card; terms apply.",
+      },
+    ],
+    shopping: [
+      {
+        description:
+          "Purchase Protection: Coverage for damaged or stolen items within 90 days of purchase, up to $10,000 per incident.",
+        partners: [],
+        discount: null,
+        cap: null,
+      },
+      {
+        description:
+          "Extended Warranty: Extends manufacturer’s warranty by 24 months on eligible purchases.",
+        partners: [],
+        discount: null,
+        cap: null,
+      },
+    ],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [
+      {
+        description:
+          "Access to Citi Entertainment® for special access to tickets for concerts, sporting events, and more.",
+        partners: [],
+        discount: null,
+        cap: null,
+      },
+    ],
+    insurance: [],
+    conciergeServices:
+      "Access to Citi Concierge for assistance with travel, dining, and entertainment arrangements.",
+    other: [
+      {
+        name: "Digital Wallets",
+        description:
+          "Compatible with digital wallets for secure and convenient payments.",
+        value: null,
+      },
+      {
+        name: "Contactless Pay",
+        description:
+          "Make payments quickly and securely with contactless technology.",
+        value: null,
+      },
+      {
+        name: "Authorized Users",
+        description:
+          "Add authorized users at no additional cost and earn points on their purchases.",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 95,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "USD",
+      amount: null,
+    },
+    freeStatus: "firstYear",
+    foreignCurrencyMarkupFee: 0,
+  },
+  idealFor: ["Frequent Travelers", "Everyday Spenders", "Reward Maximizers"],
+  keywords: [
+    "Citi",
+    "Strata Premier",
+    "Travel Rewards",
+    "ThankYou Points",
+    "No Foreign Transaction Fees",
+  ],
+  applyLink:
+    "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
+  termsAndConditionURL:
+    "https://www.cardbenefits.citi.com/-/media/CPP/Files/LegalDocs/TermsAndConditions/PID89_Strata_Premier_CRE370_TandC_0324_tagged.ashx",
+  isActive: true,
+};
+
+const citiAAPlatinumSelectWorldEliteMastercard = {
+  cardName: "Citi® / AAdvantage® Platinum Select® World Elite Mastercard®",
+  financialInstituteName: "Citibank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Travel", "Airline", "Rewards"],
+  cardSegment: "Premium",
+  cardNetwork: "Mastercard",
+  isCoBranded: true,
+  coBrandPartner: "American Airlines",
+  description:
+    "Earn AAdvantage® miles on everyday purchases and enjoy travel perks with American Airlines.",
+  eligibilityExtras: {
+    ageLimit: "18 years and above",
+    minIncomeText: "Not Specified",
+    creditScoreRequirement: "Good to Excellent",
+    employmentType: "Not Specified",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["AAdvantage® Miles"],
+    rewardRateText:
+      "2X miles at restaurants, gas stations, and eligible American Airlines purchases; 1X mile on all other purchases.",
+    rewardConditions: "Miles earned on eligible purchases; exclusions apply.",
+    bonusCategories: [
+      {
+        category: "Restaurants per $1",
+        rate: 2,
+        cap: null,
+      },
+      {
+        category: "Gas Stations per $1",
+        rate: 2,
+        cap: null,
+      },
+      {
+        category: "Eligible American Airlines Purchases per $1",
+        rate: 2,
+        cap: null,
+      },
+      {
+        category: "All Other Purchases per $1",
+        rate: 1,
+        cap: null,
+      },
+    ],
+    redemptionOptions: [
+      "Flights",
+      "Seat Upgrades",
+      "Car Rentals",
+      "Hotel Stays",
+      "Vacation Packages",
+    ],
+    pointValue: null,
+    expiryPolicy:
+      "Miles do not expire as long as account is open and in good standing.",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "Earn 50,000 AAdvantage® bonus miles after spending $2,500 in purchases within the first 3 months of account opening.",
+        value: 50000,
+        condition: "New cardmembers only; terms apply.",
+      },
+    ],
+    dining: [],
+    travel: [
+      {
+        description:
+          "First checked bag free on domestic American Airlines itineraries for you and up to 4 companions on the same reservation.",
+        type: "Domestic",
+        quantity: 1,
+        partners: ["American Airlines"],
+        condition: "",
+      },
+      {
+        description:
+          "Preferred boarding on American Airlines flights for you and up to 4 companions on the same reservation.",
+        type: "Domestic",
+        quantity: null,
+        partners: ["American Airlines"],
+        condition: "",
+      },
+      {
+        description:
+          "25% savings on inflight food and beverage purchases on American Airlines flights when you use your card.",
+        type: "Domestic",
+        quantity: null,
+        partners: ["American Airlines"],
+        condition: "",
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [
+      {
+        description:
+          "Access to Citi Entertainment® for special access to tickets for concerts, sporting events, and more.",
+        partners: [],
+        discount: null,
+      },
+    ],
+    insurance: [],
+    conciergeServices: null,
+    other: [
+      {
+        name: "Digital Wallets",
+        description:
+          "Compatible with digital wallets for secure and convenient payments.",
+        value: null,
+      },
+      {
+        name: "Contactless Pay",
+        description:
+          "Make payments quickly and securely with contactless technology.",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [
+    {
+      spendAmount: 20000,
+      benefit: "$125 American Airlines Flight Discount",
+      frequency: "Annual",
+    },
+  ],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 99,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "USD",
+      amount: null,
+    },
+    freeStatus: "firstYear",
+    foreignCurrencyMarkupFee: 0,
+  },
+  idealFor: [
+    "Frequent Flyers",
+    "American Airlines Loyalists",
+    "Travel Enthusiasts",
+  ],
+  keywords: [
+    "Citi",
+    "AAdvantage",
+    "American Airlines",
+    "Travel Rewards",
+    "No Foreign Transaction Fees",
+  ],
+  applyLink:
+    "https://www.citi.com/credit-cards/citi-aadvantage-platinum-elite-credit-card",
+  termsAndConditionURL:
+    "https://www.citi.com/credit-cards/citi-aadvantage-platinum-elite-credit-card",
+  isActive: true,
+};
+
+const citiCustomCashCard = {
+  cardName: "Citi Custom Cash® Card",
+  financialInstituteName: "Citibank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Cashback", "Rewards"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Mastercard",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "Earn 5% cash back on your top eligible spend category each billing cycle (up to $500 spent), and 1% on all other purchases.",
+  eligibilityExtras: {
+    ageLimit: "18 years and above",
+    minIncomeText: "Not specified",
+    creditScoreRequirement: "Good to Excellent",
+    employmentType: "Not specified",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["ThankYou® Points"],
+    rewardRateText:
+      "5% on top eligible spend category (up to $500/month), 1% on all other purchases",
+    rewardConditions:
+      "5% cash back applies to the highest eligible spend category each billing cycle, up to $500 spent; 1% thereafter and on all other purchases.",
+    bonusCategories: [
+      {
+        category: "Top Eligible Spend Category",
+        rate: 5,
+        cap: 500,
+      },
+      {
+        category: "All Other Purchases",
+        rate: 1,
+        cap: null,
+      },
+    ],
+    redemptionOptions: [
+      "Statement Credit",
+      "Direct Deposit",
+      "Check",
+      "Gift Cards",
+      "Travel",
+      "Shop with Points at Amazon.com or PayPal",
+    ],
+    pointValue: null,
+    expiryPolicy:
+      "Points do not expire as long as the account remains open and in good standing.",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "Earn $200 cash back after spending $1,500 on purchases in the first 6 months of account opening.",
+        value: 200,
+        condition: "New cardmembers only; terms apply.",
+      },
+    ],
+    dining: [],
+    travel: [
+      {
+        description:
+          "Earn an additional 4% cash back on hotels, car rentals, and attractions booked through the Citi Travel℠ portal through 6/30/2026.",
+        type: "Domestic",
+        quantity: null,
+        partners: ["Citi Travel℠"],
+        condition: "",
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: null,
+    other: [
+      {
+        name: "FICO Score Access",
+        description: "Free access to your FICO® credit score.",
+        value: null,
+      },
+      {
+        name: "Contactless Payments",
+        description:
+          "Make payments quickly and securely with contactless technology.",
+        value: null,
+      },
+      {
+        name: "Virtual Card Numbers",
+        description: "Generate virtual card numbers for safer online shopping.",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 0,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "USD",
+      amount: null,
+    },
+    freeStatus: "lifetime",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: ["Everyday Spenders", "Cashback Seekers", "Budget-Conscious Users"],
+  keywords: ["Citi", "Custom Cash", "5% Cashback", "No Annual Fee", "Rewards"],
+  applyLink: "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
+  termsAndConditionURL:
+    "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
+  isActive: true,
+};
+
+const tmbWINGSRuPayCreditCard = {
+  cardName: "TMB WINGS RuPay Credit Card",
+  financialInstituteName: "Tamilnad Mercantile Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Rewards", "Lifestyle"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "RuPay",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "Simplify your bill payments, grocery, fee, and other expenses with the TMB WINGS RuPay Credit Card, offering exclusive offers and rewards.",
+  eligibilityExtras: {
+    ageLimit: "Not specified",
+    minIncomeText: "₹3 lakhs per annum",
+    creditScoreRequirement: "Minimum CIBIL Score of 700",
+    employmentType: "Not specified",
+  },
+  rewards: {
+    baseRate: 0,
+    rewardType: [],
+    rewardRateText: "No reward point structure specified",
+    rewardConditions: "",
+    bonusCategories: [],
+    redemptionOptions: [],
+    pointValue: null,
+    expiryPolicy: "",
+  },
+  features: {
+    welcomeBenefits: [],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Personal Accident Insurance",
+        coverageAmount: 200000,
+        description:
+          "Personal Accidental cover of ₹2 Lakhs (For death benefit only)",
+      },
+    ],
+    conciergeServices: null,
+    other: [],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 250,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 50000,
+    },
+    freeStatus: "firstYear",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: ["Everyday Spenders", "Reward Seekers"],
+  keywords: ["TMB", "WINGS", "RuPay", "Credit Card", "Rewards"],
+  applyLink: "https://tmb.in/pages/TMB-WINGS",
+  termsAndConditionURL:
+    "https://tmb.in/doc/c05603b3-0ca4-4651-be61-95d4db48c181.pdf",
+  isActive: true,
+};
+
+const tmbPhoenixRuPayCreditCard = {
+  cardName: "TMB Phoenix RuPay Credit Card",
+  financialInstituteName: "Tamilnad Mercantile Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Business", "Rewards"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "RuPay Platinum",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "A RuPay credit card tailored for business customers, offering benefits on tax payments, insurance, utilities, and other business expenditures.",
+  eligibilityExtras: {
+    ageLimit: "Not specified",
+    minIncomeText: "₹3 lakhs per annum",
+    creditScoreRequirement: "Minimum CIBIL Score of 700",
+    employmentType: "Individual or Proprietor with a Current Account at TMB",
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: ["Reward Points"],
+    rewardRateText: "As per TMB Rewards program",
+    rewardConditions:
+      "Reward points can be redeemed as per TMB Rewards program.",
+    bonusCategories: [],
+    redemptionOptions: ["As per TMB Rewards program"],
+    pointValue: null,
+    expiryPolicy: "Not specified",
+  },
+  features: {
+    welcomeBenefits: [],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: null,
+    other: [
+      {
+        name: "Interest free",
+        description: "Interest free period of 45 days",
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 500,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 100000,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: ["Business Owners", "Tax Payers", "Utility Bill Payers"],
+  keywords: ["TMB", "Phoenix", "RuPay", "Business Credit Card", "Rewards"],
+  applyLink: "https://tmb.in/pages/TMB-Phoenix",
+  termsAndConditionURL:
+    "https://tmb.in/doc/a2c45dfe-00aa-4093-8581-0ffb70dc899e.pdf",
+  isActive: true,
+};
+
+const tmbPlatinumCreditCard = {
+  cardName: "TMB Platinum Credit Card",
+  financialInstituteName: "Tamilnad Mercantile Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Secured", "Lifestyle"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Mastercard / Visa",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "A secured credit card backed by a fixed deposit, offering essential credit facilities with minimal fees.",
+  eligibilityExtras: {
+    ageLimit: "Not specified",
+    minIncomeText: "Not applicable (secured card)",
+    creditScoreRequirement: "Minimum CIBIL Score of 650",
+    employmentType: "Not specified",
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: [],
+    rewardRateText: null,
+    rewardConditions: null,
+    bonusCategories: [],
+    redemptionOptions: [],
+    pointValue: null,
+    expiryPolicy: null,
+  },
+  features: {
+    welcomeBenefits: [],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Personal Accident Insurance",
+        coverageAmount: 500000,
+        description:
+          "Personal Accidental cover of ₹5 Lakhs (For death benefit only)",
+      },
+    ],
+    conciergeServices: null,
+    other: [],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 0,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "lifetime",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: [
+    "Individuals seeking a secured credit card",
+    "Customers with fixed deposits",
+  ],
+  keywords: ["TMB", "Platinum", "Secured Credit Card", "Mastercard", "Visa"],
+  applyLink: "https://tmb.in/pages/TMB-Platinum",
+  termsAndConditionURL: null,
+  isActive: true,
+};
+
+const tmbTitaniumCreditCard = {
+  cardName: "TMB Titanium Credit Card",
+  financialInstituteName: "Tamilnad Mercantile Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Lifestyle"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Mastercard/Visa",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "An unsecured credit card offering essential credit facilities with minimal fees.",
+  eligibilityExtras: {
+    ageLimit: "Not specified",
+    minIncomeText: "₹2 lakhs per annum",
+    creditScoreRequirement: "Minimum CIBIL Score of 650",
+    employmentType: "Not specified",
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: [],
+    rewardRateText: null,
+    rewardConditions: null,
+    bonusCategories: [],
+    redemptionOptions: [],
+    pointValue: null,
+    expiryPolicy: null,
+  },
+  features: {
+    welcomeBenefits: [],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: null,
+    other: [],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 0,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "lifetime",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: ["Individuals seeking an unsecured credit card"],
+  keywords: ["TMB", "Titanium", "Unsecured Credit Card", "Mastercard", "Visa"],
+  applyLink: "https://tmb.in/pages/TMB-Titanium",
+  termsAndConditionURL:
+    "https://tmb.in/doc/c75d9309-a0be-4305-bb0d-850b6983ce3b.pdf",
+  isActive: true,
+};
+
+const americanExpressGoldCreditCard = {
+  cardName: "American Express® Gold Card",
+  financialInstituteName: "American Express",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Rewards", "Lifestyle"],
+  cardSegment: "Premium",
+  cardNetwork: "American Express",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "A premium charge card offering Membership Rewards® Points on all spends, with bonus points on monthly milestones and exclusive redemption options through the Gold Collection.",
+  eligibilityExtras: {
+    ageLimit: "18+",
+    minIncomeText: "₹6 Lakhs annually",
+    creditScoreRequirement: "Good credit history with no payment defaults",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Membership Rewards® Points"],
+    rewardRateText: "1 MR Point per ₹50 spent, including fuel and utilities",
+    rewardConditions: "Excludes insurance and cash transactions",
+    bonusCategories: [
+      {
+        category: "Monthly Milestone",
+        rate: 1000,
+        cap: null,
+      },
+      {
+        category: "Reward Multiplier",
+        rate: 5,
+        cap: null,
+      },
+    ],
+    redemptionOptions: [
+      "Gold Collection Vouchers",
+      "Travel Bookings",
+      "Shopping",
+    ],
+    pointValue: null,
+    expiryPolicy: "Points do not expire as long as the account is active",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "4,000 Bonus Membership Rewards® Points",
+        value: null,
+        condition:
+          "Spend ₹10,000 within 90 days of card issuance and payment of the first year's annual fee",
+      },
+    ],
+    dining: [
+      {
+        description: "Up to 20% off at select partner restaurants",
+        partners: [],
+        discount: 20,
+        cap: null,
+      },
+    ],
+    travel: [
+      {
+        description: "Room upgrade (where available) and a US$100 hotel credit",
+        type: "International",
+        quantity: null,
+        partners: ["Hilton", "Intercontinental", "Hyatt"],
+        condition: "Minimum two consecutive nights stay",
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 0,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices:
+      "24x7 Concierge Services for dining reservations, travel planning, and more",
+    other: [
+      {
+        name: "Zero Lost Card Liability",
+        description:
+          "No liability for fraudulent transactions upon prompt reporting",
+        value: null,
+      },
+      {
+        name: "Emergency Card Replacement",
+        description: "Rapid replacement service in emergencies",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [
+    {
+      spendAmount: 6000,
+      benefit:
+        "Earn 1,000 bonus points on 6 transactions of ₹1,000 each every calendar month.",
+      frequency: "Monthly",
+    },
+  ],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 1000,
+    annualFee: 4500,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: [
+    "Frequent Shoppers",
+    "Lifestyle Enthusiasts",
+    "Travelers seeking hotel benefits",
+  ],
+  keywords: [
+    "American Express",
+    "Gold Card",
+    "Membership Rewards",
+    "Charge Card",
+    "Premium Credit Card",
+  ],
+  applyLink: "https://www.americanexpress.com/in/charge-cards/gold-card/",
+  termsAndConditionURL: null,
+  isActive: true,
+};
+
+const americanexpressBlueCashEverydayCard = {
+  cardName: "Blue Cash Everyday® Card from American Express",
+  financialInstituteName: "American Express",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Cash Back", "Lifestyle"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "American Express",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "A no-annual-fee credit card offering cash back on everyday purchases like groceries, online retail, and gas, along with additional benefits such as statement credits for select subscriptions.",
+  eligibilityExtras: {
+    ageLimit: "18+",
+    minIncomeText: "Not specified",
+    creditScoreRequirement: "Good to Excellent",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Cash Back"],
+    rewardRateText:
+      "3% cash back at U.S. supermarkets, U.S. online retail purchases, and U.S. gas stations (on up to $6,000 per category per year, then 1%). 1% on other eligible purchases.",
+    rewardConditions:
+      "Cash back is received in the form of Reward Dollars that can be redeemed as statement credits.",
+    bonusCategories: [
+      {
+        category: "U.S. Supermarkets",
+        rate: 3,
+        cap: 6000,
+      },
+      {
+        category: "U.S. Online Retail Purchases",
+        rate: 3,
+        cap: 6000,
+      },
+      {
+        category: "U.S. Gas Stations",
+        rate: 3,
+        cap: 6000,
+      },
+    ],
+    redemptionOptions: ["Statement Credit"],
+    pointValue: null,
+    expiryPolicy:
+      "Reward Dollars do not expire as long as the account is open and in good standing.",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "Welcome Bonus",
+        value: "$200 statement credit after $2,000 spend in first 6 months",
+      },
+    ],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Purchase Protection",
+        coverageAmount: null,
+        description:
+          "Protects eligible purchases against accidental damage or theft for up to 90 days from the purchase date. Coverage limits apply.",
+      },
+      {
+        type: "Car Rental Loss and Damage Insurance",
+        coverageAmount: null,
+        description:
+          "Provides secondary coverage for damage to or theft of a rental vehicle when the card is used to reserve and pay for the entire rental and the collision damage waiver is declined at the rental counter. Coverage is not available in certain countries.",
+      },
+    ],
+    conciergeServices: null,
+    other: [
+      {
+        name: "Disney Bundle Credit",
+        description:
+          "Up to $84 back annually ($7 per month) as a statement credit after using the card to spend $9.99 or more per month on an auto-renewing subscription to the Disney Bundle (Disney+, Hulu, or ESPN+). Enrollment required.",
+        value: 84,
+      },
+      {
+        name: "Home Chef Credit",
+        description:
+          "Up to $180 back annually ($15 per month) as a statement credit after using the card to purchase Home Chef meal solutions online. Enrollment required.",
+        value: 180,
+      },
+      {
+        name: "Fuel",
+        description:
+          "3% cash back at U.S. gas stations on up to $6,000 per year in purchases (then 1%).",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 0,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "USD",
+      amount: null,
+    },
+    freeStatus: "lifetime",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: [
+    "Individuals seeking cash back on everyday purchases",
+    "Online shoppers",
+    "Drivers who spend on gas",
+  ],
+  keywords: [
+    "American Express",
+    "Blue Cash Everyday",
+    "Cash Back",
+    "No Annual Fee",
+    "Rewards",
+  ],
+  applyLink:
+    "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+  termsAndConditionURL: null,
+  isActive: true,
+};
