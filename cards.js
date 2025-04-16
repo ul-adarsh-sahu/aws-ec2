@@ -8963,3 +8963,319 @@ const americanexpressBlueCashEverydayCard = {
   termsAndConditionURL: null,
   isActive: true,
 };
+
+const americanexpressBlueCashPreferredCard = {
+  cardName: "Blue Cash Preferred® Card from American Express",
+  financialInstituteName: "American Express",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Cash Back", "Lifestyle"],
+  cardSegment: "Mid-Tier",
+  cardNetwork: "American Express",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "A cash-back credit card offering high rewards on everyday purchases like groceries, streaming services, gas, and transit, with additional benefits such as statement credits for select subscriptions.",
+  eligibilityExtras: {
+    ageLimit: "18+",
+    minIncomeText: "Not specified",
+    creditScoreRequirement: "Good to Excellent",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Cash Back"],
+    rewardRateText:
+      "6% cash back at U.S. supermarkets (on up to $6,000 per year in purchases, then 1%), 6% cash back on select U.S. streaming subscriptions, 3% cash back at U.S. gas stations and on transit, 1% cash back on other purchases.",
+    rewardConditions:
+      "Cash back is received in the form of Reward Dollars that can be redeemed as statement credits or at Amazon.com checkout.",
+    bonusCategories: [
+      {
+        category: "U.S. Supermarkets",
+        rate: 6,
+        cap: 6000,
+      },
+      {
+        category: "Select U.S. Streaming Subscriptions",
+        rate: 6,
+        cap: null,
+      },
+      {
+        category: "U.S. Gas Stations",
+        rate: 3,
+        cap: null,
+      },
+      {
+        category:
+          "Transit (including taxis/rideshare, parking, tolls, trains, buses and more)",
+        rate: 3,
+        cap: null,
+      },
+    ],
+    redemptionOptions: ["Statement Credit", "Amazon.com Checkout"],
+    pointValue: null,
+    expiryPolicy:
+      "Reward Dollars do not expire as long as the account is open and in good standing.",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "Earn a $250 statement credit after you spend $3,000 in eligible purchases on your new Card within the first 6 months.",
+        value: 250,
+        condition:
+          "Spend $3,000 in eligible purchases within the first 6 months.",
+      },
+    ],
+    dining: [],
+    travel: [
+      {
+        description:
+          "Access to Global Assist® Hotline for emergency assistance when traveling more than 100 miles from home.",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: "Traveling more than 100 miles from home.",
+        details:
+          "Provides medical, legal, and financial coordination and assistance services.",
+      },
+      {
+        description:
+          "Car Rental Loss and Damage Insurance provides secondary coverage for damage to or theft of rental vehicles.",
+        type: "Domestic",
+        quantity: null,
+        partners: [],
+        condition:
+          "Pay for the entire rental with your card and decline the rental company's collision damage waiver.",
+        details: "Coverage is secondary to your personal insurance.",
+      },
+    ],
+    shopping: [
+      {
+        description:
+          "Purchase Protection covers eligible purchases against damage or theft for up to 90 days from the purchase date.",
+      },
+      {
+        description:
+          "Return Protection offers refunds for eligible items that retailers won't take back within 90 days of purchase.",
+      },
+      {
+        description:
+          "Extended Warranty adds up to one additional year to the original manufacturer's warranty of five years or less.",
+      },
+      {
+        description:
+          "Complimentary ShopRunner membership for free two-day shipping and returns at over 100 online retailers.",
+      },
+    ],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [
+      {
+        description:
+          "Exclusive access to ticket presales and cardholder-only events through Amex Experiences.",
+        partners: [],
+        discount: null,
+        cap: null,
+      },
+    ],
+    insurance: [],
+    conciergeServices: null,
+    other: [
+      {
+        name: "Disney Bundle Credit",
+        description:
+          "Up to $84 back annually ($7 per month) as a statement credit after using the card to spend $9.99 or more per month on an auto-renewing subscription to the Disney Bundle (Disney+, Hulu, or ESPN+). Enrollment required.",
+        value: 84,
+      },
+      {
+        name: "Plan It®",
+        description:
+          "Split up large purchases into monthly installments with a fixed fee and no interest. Up to 10 active plans allowed.",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 95,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "USD",
+      amount: null,
+    },
+    freeStatus: "firstYear",
+    foreignCurrencyMarkupFee: 2.7,
+  },
+  idealFor: [
+    "Individuals seeking high cash back on groceries, streaming services, gas, and transit expenses.",
+  ],
+  keywords: [
+    "American Express",
+    "Blue Cash Preferred",
+    "Cash Back",
+    "Groceries",
+    "Streaming",
+    "Gas",
+    "Transit",
+  ],
+  applyLink:
+    "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
+  termsAndConditionURL: null,
+  isActive: true,
+};
+
+const americanexpressCenturionCard = {
+  cardName: "American Express Centurion Card",
+  financialInstituteName: "American Express",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Luxury", "Travel", "Lifestyle"],
+  cardSegment: "Ultra Premium",
+  cardNetwork: "American Express",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "An invitation-only charge card offering unparalleled luxury, elite travel privileges, and personalized concierge services for ultra-high-net-worth individuals.",
+  eligibilityExtras: {
+    ageLimit: "18+",
+    minIncomeText: "Not specified",
+    creditScoreRequirement: "Excellent",
+    employmentType: "Not specified",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Membership Rewards"],
+    rewardRateText:
+      "1 point per dollar on eligible purchases; 1.5 points per dollar on purchases over $5,000 (up to 1 million additional points per year)",
+    rewardConditions: "Enhanced earning on large purchases over $5,000",
+    bonusCategories: [],
+    redemptionOptions: [
+      "Travel",
+      "Statement Credit",
+      "Merchandise",
+      "Gift Cards",
+    ],
+    pointValue: null,
+    expiryPolicy: "Points never expire",
+  },
+  features: {
+    welcomeBenefits: [],
+    dining: [],
+    travel: [
+      {
+        description:
+          "Complimentary companion airline tickets on international flights with the purchase of a full-fare ticket",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: "Purchase of a full-fare ticket",
+      },
+
+      {
+        description: "First-class flight upgrades",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: null,
+      },
+    ],
+    shopping: [
+      {
+        description: "Personal shoppers at select luxury retailers",
+        partners: ["Gucci", "Escada", "Saks Fifth Avenue"],
+        discount: null,
+        categories: ["Luxury Retail"],
+      },
+    ],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: "24/7 dedicated concierge and travel agent services",
+    other: [
+      {
+        name: "Elite Status",
+        description:
+          "Automatic elite status with select airlines, hotels, and car rental programs",
+        value: null,
+      },
+      {
+        name: "Hotel Benefits",
+        description:
+          "Privileges at hotel chains like Ritz-Carlton, Leading Hotels of the World, and Amanresorts",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: null,
+      perQuarter: null,
+      condition: null,
+      partners: ["Centurion Lounge", "Priority Pass"],
+      details:
+        "Unlimited Access to exclusive lounges with additional privileges for Centurion members",
+    },
+    international: {
+      available: true,
+      quantity: null,
+      perQuarter: null,
+      partners: ["Centurion Lounge", "Priority Pass"],
+      details:
+        "Global lounge access with exclusive amenities for Centurion members",
+    },
+  },
+  cardFees: {
+    joiningFee: 700000,
+    annualFee: 250000,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: [
+    "Ultra-high-net-worth individuals seeking exclusive privileges and personalized services",
+  ],
+  keywords: [
+    "Centurion",
+    "Black Card",
+    "American Express",
+    "Luxury",
+    "Exclusive",
+  ],
+  applyLink: null,
+  termsAndConditionURL: null,
+  isActive: true,
+};
