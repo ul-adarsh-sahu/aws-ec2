@@ -6926,3 +6926,750 @@ const alturaCreditCard = {
     "https://www.aubank.in/SOC_CC-MITC%28with-Schedule-of-Charges%29.pdf",
   isActive: true,
 };
+
+const AlturaPlusCreditCard = {
+  cardName: "Altura Plus Credit Card",
+  financialInstituteName: "Equitas Small Finance Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Cashback", "Rewards"],
+  cardSegment: "Entry Level",
+  cardNetwork: "RuPay",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description: "Get cashback and accelerated rewards on everyday spends.",
+  eligibilityExtras: {
+    ageLimit:
+      "21-60 years (Salaried), 25-65 years (Self-employed), 18+ (Add-on)",
+    minIncomeText: "",
+    creditScoreRequirement: "",
+    employmentType: "Salaried or Self-Employed",
+  },
+  rewards: {
+    baseRate: 1, // 1 RP / ₹100 offline
+    rewardType: ["Reward Points", "Cashback"],
+    rewardRateText:
+      "1 RP/₹100 on POS after cashback cap; 2X on online; 1 RP/₹100 on utilities & insurance",
+    rewardConditions:
+      "1.5% cashback up to ₹100 on POS; then 1 RP/₹100; 2X RP online; capped RP on utility/insurance",
+    bonusCategories: [
+      {
+        category: "Online",
+        rate: 2,
+        cap: null,
+      },
+      {
+        category: "Utility & Telecom",
+        rate: 1,
+        cap: 100,
+      },
+      {
+        category: "Insurance",
+        rate: 1,
+        cap: 100,
+      },
+    ],
+    redemptionOptions: [
+      "E-vouchers",
+      "Merchandise",
+      "Mobile/DTH recharge",
+      "Flight/Hotel booking",
+    ],
+    pointValue: null, // Not mentioned
+    expiryPolicy: null, // Not mentioned
+  },
+  features: {
+    welcomeBenefits: [],
+    dining: [],
+    travel: [
+      {
+        description:
+          "2 complimentary railway lounge access per calendar quarter",
+        type: "Domestic",
+        quantity: 8, // 2 per quarter = 8 per year
+        partners: [],
+        condition: "",
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 5000,
+      monthlyCap: 150,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Card Protection",
+        coverageAmount: 0,
+        description:
+          "Zero liability after loss report. Covered against online, skimming, counterfeit frauds.",
+      },
+    ],
+    conciergeServices: "",
+    other: [
+      {
+        name: "Contactless Payments",
+        description:
+          "Tap to pay up to ₹5000 without PIN at participating merchants.",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [
+    {
+      spendAmount: 20000,
+      benefit: "500 Bonus Reward Points",
+      frequency: "Monthly",
+    },
+  ],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: 499,
+    annualFee: 499,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      conditions: [
+        {
+          year: "first",
+          amount: 20000,
+          duration: "within 90 days of card setup",
+        },
+        {
+          year: "secondOnwards",
+          amount: 80000,
+          duration: "in previous card anniversary year",
+        },
+      ],
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: ["Online Shopper", "Budget Spender"],
+  keywords: [
+    "Equitas",
+    "Altura Plus",
+    "Cashback Card",
+    "Rewards",
+    "Fuel Waiver",
+  ],
+  applyLink:
+    "hhttps://www.aubank.in/personal-banking/credit-cards/altura-plus-credit-card",
+  termsAndConditionURL:
+    "https://www.aubank.in/personal-banking/credit-cards/altura-plus-credit-card",
+  isActive: true,
+};
+
+const AUHaryanaRoadwaysNCMCPrepaidCard = {
+  cardName: "AU Haryana Roadways NCMC Card",
+  financialInstituteName: "AU Small Finance Bank",
+  cardType: "PREPAID CARD",
+  cardCategories: ["Travel", "Transit", "Prepaid"],
+  cardSegment: "Mass",
+  cardNetwork: "RuPay",
+  isCoBranded: true,
+  coBrandPartner: "Haryana Roadways",
+  description:
+    "A reloadable, contactless prepaid card for seamless travel across Haryana Roadways buses and other transit systems, with additional retail payment capabilities.",
+  eligibilityExtras: {
+    ageLimit: null,
+    minIncomeText: null,
+    creditScoreRequirement: null,
+    employmentType: null,
+  },
+  rewards: {
+    baseRate: 0,
+    rewardType: [],
+    rewardRateText: null,
+    rewardConditions: null,
+    bonusCategories: [],
+    redemptionOptions: [],
+    pointValue: null,
+    expiryPolicy: null,
+  },
+  features: {
+    welcomeBenefits: [],
+    dining: [],
+    travel: [
+      {
+        description:
+          "Tap-and-pay for seamless travel in Haryana Roadways buses using contactless technology",
+        type: "Domestic",
+        quantity: 0,
+        partners: ["Haryana Roadways"],
+        condition: "",
+      },
+      {
+        description:
+          "Interoperable for multi-modal transport such as metro, buses, suburban trains",
+        type: "Domestic",
+        quantity: 0,
+        partners: [],
+        condition: "",
+      },
+    ],
+    shopping: [
+      {
+        description:
+          "Use the card for retail transactions both online and offline.",
+        partners: [],
+        discount: null,
+        categories: [],
+      },
+    ],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: null,
+    other: [
+      {
+        name: "Offline Load",
+        description:
+          "Can load INR 2000 offline and INR 8000 online based on Min KYC with a total balance limit of INR 10,000",
+        value: 10000,
+      },
+      {
+        name: "Card Replacement",
+        description: "Card replacement charges are INR 150",
+        value: 150,
+      },
+      {
+        name: "Reload Charges",
+        description:
+          "1.8% or flat INR 10 – whichever is more, rounded to nearest rupee",
+        value: 10,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: null,
+      perQuarter: null,
+      condition: null,
+      partners: [],
+      details: null,
+    },
+    international: {
+      available: false,
+      quantity: null,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 100,
+    annualFee: 75,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 0,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: 0,
+  },
+  idealFor: ["Frequent Commuters", "Students", "Daily Travelers"],
+  keywords: [
+    "NCMC",
+    "Haryana Roadways",
+    "AU Bank",
+    "Prepaid Card",
+    "Travel Card",
+    "Contactless Payment",
+  ],
+  applyLink:
+    "https://www.aubank.in/personal-banking/prepaid-cards/au-haryana-roadways-ncmc-card",
+  termsAndConditionURL:
+    "https://www.aubank.in/personal-banking/prepaid-cards/au-haryana-roadways-ncmc-card",
+  isActive: true,
+};
+
+const axisBankMultiCurrencyForexCard = {
+  cardName: "Axis Bank Multi-Currency Forex Card",
+  financialInstituteName: "Axis Bank",
+  cardType: "FOREX CARD",
+  cardCategories: ["Travel", "Forex", "Multi-Currency"],
+  cardSegment: "Travel",
+  cardNetwork: "Visa/Mastercard",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description:
+    "A prepaid travel card that allows you to load up to 16 currencies, offering convenience and security for international travelers.",
+  eligibilityExtras: {
+    ageLimit: "18 years and above",
+    minIncomeText: "Not Applicable",
+    creditScoreRequirement: "Not Applicable",
+    employmentType: "Not Applicable",
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: [],
+    rewardRateText: "",
+    rewardConditions: "",
+    bonusCategories: [],
+    redemptionOptions: [],
+    pointValue: null,
+    expiryPolicy: "",
+  },
+  features: {
+    welcomeBenefits: [],
+    dining: [],
+    travel: [
+      {
+        description:
+          "Accepted at over 80 million merchants and 10 million ATMs worldwide.",
+        partners: [],
+        discount: null,
+        cap: null,
+      },
+      {
+        description: "Load up to 16 currencies on a single card",
+        type: "International",
+        quantity: 16,
+        partners: [],
+        condition: "",
+      },
+      {
+        description:
+          "Zero cross-currency conversion charges for transactions in loaded currencies",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: "",
+      },
+      {
+        description: "Emergency assistance through TripAssist",
+        type: "International",
+        quantity: null,
+        partners: ["TripAssist"],
+        condition: "",
+      },
+      {
+        description: "24x7 Global Customer Assistance Services (GCAS)",
+        type: "International",
+        quantity: null,
+        partners: ["GCAS"],
+        condition: "",
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        description: "Insurance cover up to ₹3,00,000.",
+        value: 300000,
+      },
+    ],
+    conciergeServices: "",
+    other: [
+      {
+        name: "Emergency Cash Assistance",
+        description:
+          "Emergency cash assistance and card replacement services available.",
+        value: null,
+      },
+      {
+        name: "Digital Reload",
+        description:
+          "Reload your card digitally via Internet Banking or Mobile Banking.",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: null,
+    annualFee: null,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: [
+    "International Travelers",
+    "Students Studying Abroad",
+    "Frequent Flyers",
+  ],
+  keywords: [
+    "Axis Bank",
+    "Forex Card",
+    "Multi-Currency",
+    "Travel Card",
+    "Prepaid Travel Card",
+  ],
+  applyLink:
+    "https://www.axisbank.com/retail/forex/travel-forex-card/forex-card",
+  termsAndConditionURL:
+    "https://www.axisbank.com/retail/forex/travel-forex-card/forex-card",
+  isActive: true,
+};
+
+const axisBankWorldTravellerForexCard = {
+  cardName: "Axis Bank World Traveller Forex Card",
+  financialInstituteName: "Axis Bank",
+  cardType: "FOREX CARD",
+  cardCategories: ["Travel", "Forex", "Multi-Currency", "Rewards"],
+  cardSegment: "Travel",
+  cardNetwork: "Mastercard/Visa",
+  isCoBranded: true,
+  coBrandPartner: "Miles & More (Lufthansa Group)",
+  description:
+    "A multi-currency prepaid travel card that allows you to load up to 16 currencies, earn award miles on loading and spending, and enjoy various travel-related benefits.",
+  eligibilityExtras: {
+    ageLimit: "18 years and above",
+    minIncomeText: "Not Applicable",
+    creditScoreRequirement: "Not Applicable",
+    employmentType: "Not Applicable",
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: ["Award Miles"],
+    rewardRateText:
+      "Earn 5 award miles for every $5 spent at POS; 1,000 miles on first load; 2,000 bonus miles on load > $4,000.",
+    rewardConditions:
+      "Miles are earned on loading and spending; enrollment in Miles & More program required.",
+    bonusCategories: [],
+    redemptionOptions: [
+      "Flights",
+      "Hotels",
+      "Car Rentals",
+      "Gift Cards",
+      "Partner Merchants",
+    ],
+    pointValue: null,
+    expiryPolicy: "",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "1,000 award miles on first load.",
+        value: 1000,
+        condition: "Credited upon first load of the card.",
+      },
+    ],
+    dining: [],
+    travel: [
+      {
+        description: "Load up to 16 currencies on a single card.",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: "",
+      },
+      {
+        description:
+          "Accepted at over 30 million retail outlets and 100,000 e-commerce sites worldwide.",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: "",
+      },
+      {
+        description:
+          "Emergency assistance through TripAssist, including card blocking, emergency cash, and lost passport assistance.",
+        type: "International",
+        quantity: null,
+        partners: ["TripAssist"],
+        condition: "",
+      },
+      {
+        description:
+          "Contactless payments enabled via Mastercard's contactless technology.",
+        type: "International",
+        quantity: null,
+        partners: ["Mastercard"],
+        condition: "",
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: "",
+    other: [
+      {
+        name: "Miles & More Membership",
+        description: "Free enrollment to the Miles & More membership program.",
+        value: null,
+      },
+      {
+        name: "Digital Reload",
+        description:
+          "Reload your card digitally via Axis Internet Banking or Axis Mobile App.",
+        value: null,
+      },
+      {
+        name: "Balance Tracking",
+        description:
+          "Track your card balance via Internet Banking, Mobile App, or SMS.",
+        value: null,
+      },
+      {
+        name: "Miles Tracking",
+        description:
+          "Track your mileage balance by logging into your Miles & More account.",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [
+    {
+      spendAmount: 4000,
+      benefit: "2,000 bonus award miles on load > $4,000.",
+      frequency: "Per Load",
+    },
+  ],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: null,
+    annualFee: null,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: [
+    "International Travelers",
+    "Frequent Flyers",
+    "Individuals seeking multi-currency travel solutions",
+  ],
+  keywords: [
+    "Axis Bank",
+    "World Traveller Forex Card",
+    "Multi-Currency",
+    "Miles & More",
+    "Travel Card",
+  ],
+  applyLink:
+    "https://www.axisbank.com/retail/forex/travel-forex-card/world-traveller-forex-card",
+  termsAndConditionURL:
+    "https://www.axisbank.com/retail/forex/travel-forex-card/world-traveller-forex-card",
+  isActive: true,
+};
+
+const axisBankDinersForexCard = {
+  cardName: "Axis Bank Diners Forex Card",
+  financialInstituteName: "Axis Bank",
+  cardType: "FOREX CARD",
+  cardCategories: ["Travel", "Forex", "Multi-Currency"],
+  cardSegment: "Travel",
+  cardNetwork: "Diners Club",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description:
+    "A multi-currency prepaid travel card offering global acceptance, online shopping capabilities, and emergency assistance services for international travelers.",
+  eligibilityExtras: {
+    ageLimit: "18 years and above",
+    minIncomeText: "Not Applicable",
+    creditScoreRequirement: "Not Applicable",
+    employmentType: "Not Applicable",
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: [],
+    rewardRateText: "",
+    rewardConditions: "",
+    bonusCategories: [],
+    redemptionOptions: [],
+    pointValue: null,
+    expiryPolicy: "",
+  },
+  features: {
+    welcomeBenefits: [],
+    dining: [],
+    travel: [
+      {
+        description: "Accepted at over 1,00,000 e-commerce websites worldwide.",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: "",
+      },
+      {
+        description: "No charges for using the Forex Card for online shopping.",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: "",
+      },
+      {
+        description:
+          "Emergency assistance through TripAssist, including card blocking, emergency cash, and lost passport assistance.",
+        type: "International",
+        quantity: null,
+        partners: ["TripAssist"],
+        condition: "",
+      },
+      {
+        description:
+          "Visa Assistance Services to help with travel documentation.",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: "",
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        description:
+          "Insurance cover up to ₹3,00,000, including ATM assault or robbery.",
+        value: "₹3,00,000",
+      },
+    ],
+    conciergeServices: "",
+    other: [
+      {
+        name: "Quick Reload Facility",
+        description:
+          "Reload your card digitally via Internet Banking or Mobile Banking.",
+        value: null,
+      },
+      {
+        name: "No Balance Loss",
+        description:
+          "Unutilized balance can be encashed, transferred to a Resident Foreign Currency Domestic Account, or retained for future use (up to $2,000 as per RBI regulations).",
+        value: null,
+      },
+      {
+        name: "Vodafone Cash Back Offer",
+        description:
+          "Load or reload your Forex Card and get up to ₹1,000 off on Vodafone’s International Roaming pack.",
+        value: 1000,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: "",
+    },
+  },
+  cardFees: {
+    joiningFee: null,
+    annualFee: null,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: [
+    "International Travelers",
+    "Online Shoppers",
+    "Individuals seeking emergency assistance services while abroad",
+  ],
+  keywords: [
+    "Axis Bank",
+    "Diners Forex Card",
+    "Multi-Currency",
+    "Travel Card",
+    "TripAssist",
+    "Online Shopping",
+  ],
+  applyLink:
+    "https://www.axisbank.com/retail/forex/travel-forex-card/diners-card",
+  termsAndConditionURL:
+    "https://www.axisbank.com/retail/forex/travel-forex-card/diners-card",
+  isActive: true,
+};
