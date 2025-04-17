@@ -9279,3 +9279,925 @@ const americanexpressCenturionCard = {
   termsAndConditionURL: null,
   isActive: true,
 };
+
+const icaiExclusiveBOBCard = {
+  cardName: "ICAI Exclusive BOBCARD",
+  financialInstituteName: "Bank of Baroda",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Professional", "Lifestyle", "Rewards"],
+  cardSegment: "Mid-Tier",
+  cardNetwork: "RuPay",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "A lifetime-free credit card exclusively designed for ICAI members, offering accelerated rewards, complimentary lounge access, insurance coverage, and more.",
+  eligibilityExtras: {
+    ageLimit: "18+",
+    minIncomeText: "Not specified",
+    creditScoreRequirement: "Good to Excellent",
+    employmentType: "ICAI Member",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Reward Points"],
+    rewardRateText:
+      "5X rewards on dining, online, and utility bill payments; 1X on other spends",
+    rewardConditions:
+      "5X rewards capped at 1,000 points per statement cycle; excess spends earn at base rate",
+    bonusCategories: [
+      {
+        category: "Dining, Online, Utility Bills",
+        rate: 5,
+        cap: 1000,
+      },
+    ],
+    redemptionOptions: ["Cashback"],
+    pointValue: 0.25,
+    expiryPolicy: "Points valid for 2 years from accrual",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "6-month FitPass Pro membership worth ₹15,000",
+        value: 15000,
+        condition: "Card issuance",
+      },
+      {
+        description: "500 reward points on spending ₹5,000 within 60 days",
+        value: 125,
+        condition: "Spend ₹5,000 within 60 days of card issuance",
+      },
+    ],
+    dining: [
+      {
+        description: "5X reward points on dining spends",
+        partners: [],
+        discount: null,
+        cap: 1000,
+      },
+    ],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 5000,
+      monthlyCap: 250,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Air Accident Cover",
+        coverageAmount: 1500000,
+        description: "Coverage against death due to air accident",
+      },
+      {
+        type: "Non-Air Accident Cover",
+        coverageAmount: 500000,
+        description: "Coverage against death due to non-air accident",
+      },
+      {
+        type: "Professional Indemnity Insurance",
+        coverageAmount: 500000,
+        description: "Coverage for professional liabilities",
+      },
+    ],
+    conciergeServices: null,
+    other: [
+      {
+        name: "Smart EMI",
+        description:
+          "Convert purchases over ₹2,500 into EMIs ranging from 6 to 48 months",
+        value: null,
+      },
+      {
+        name: "Add-on Cards",
+        description:
+          "Up to 3 lifetime free add-on cards for family members above 18 years",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [
+    {
+      spendAmount: 100000,
+      benefit: "4,000 reward points",
+      frequency: "Quarterly",
+    },
+  ],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 12,
+      perQuarter: 3,
+      condition: "Spend ₹40,000 in the previous quarter",
+      partners: [],
+      details: "Access to select domestic airport lounges",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 0,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "lifetime",
+    foreignCurrencyMarkupFee: 2,
+  },
+  idealFor: ["ICAI Members seeking exclusive benefits and rewards"],
+  keywords: ["ICAI", "BOBCARD", "Lifetime Free", "Rewards", "Lounge Access"],
+  applyLink: "https://www.bobcard.co.in/credit-card-types/icai-exclusive",
+  termsAndConditionURL: null,
+  isActive: true,
+};
+
+const icsiDiamondBOBCard = {
+  cardName: "ICSI Diamond BOBCARD",
+  financialInstituteName: "Bank of Baroda",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Professional", "Lifestyle", "Rewards"],
+  cardSegment: "Mid-Tier",
+  cardNetwork: "RuPay/Visa",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "A lifetime-free credit card exclusively designed for ICSI members, offering accelerated rewards, complimentary lounge access, insurance coverage, and more.",
+  eligibilityExtras: {
+    ageLimit: "18+",
+    minIncomeText:
+      "Salaried: ₹4.8 Lacs p.a. (Gross); Self-employed: ITR as per bank norms",
+    creditScoreRequirement: "Good to Excellent",
+    employmentType: "ICSI Member",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Cashback"],
+    rewardRateText:
+      "5X rewards on dining, online, and utility bill payments; 1X on other spends",
+    rewardConditions:
+      "5X rewards capped at 1,000 points per statement cycle; excess spends earn at base rate",
+    bonusCategories: [
+      {
+        category: "Dining, Online, Utility Bills",
+        rate: 5,
+        cap: 1000,
+      },
+    ],
+    redemptionOptions: ["Cashback"],
+    pointValue: 0.25,
+    expiryPolicy: "Points valid for 2 years from accrual",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "6-month FitPass Pro membership worth ₹15,000",
+        value: 15000,
+        condition: "Card issuance",
+      },
+      {
+        description: "500 reward points on spending ₹5,000 within 60 days",
+        value: 125,
+        condition: "Spend ₹5,000 within 60 days of card issuance",
+      },
+    ],
+    dining: [
+      {
+        description: "5X reward points on dining spends",
+        partners: [],
+        discount: null,
+        cap: 1000,
+      },
+    ],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 5000,
+      monthlyCap: 250,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Air Accident Cover",
+        coverageAmount: 1500000,
+        description: "Coverage against death due to air accident",
+      },
+      {
+        type: "Non-Air Accident Cover",
+        coverageAmount: 500000,
+        description: "Coverage against death due to non-air accident",
+      },
+      {
+        type: "Professional Indemnity Insurance",
+        coverageAmount: 500000,
+        description: "Coverage for professional liabilities",
+      },
+    ],
+    conciergeServices: null,
+    other: [
+      {
+        name: "Smart EMI",
+        description:
+          "Convert purchases over ₹2,500 into EMIs ranging from 6 to 48 months",
+        value: null,
+      },
+      {
+        name: "Add-on Cards",
+        description:
+          "Up to 3 lifetime free add-on cards for family members above 18 years",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [
+    {
+      spendAmount: 100000,
+      benefit: "4,000 reward points",
+      frequency: "Quarterly",
+    },
+  ],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 12,
+      perQuarter: 3,
+      condition: "Spend ₹40,000 in the previous quarter",
+      partners: [],
+      details: "Access to select domestic airport lounges",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 0,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "lifetime",
+    foreignCurrencyMarkupFee: 2,
+  },
+  idealFor: ["ICSI Members seeking exclusive benefits and rewards"],
+  keywords: ["ICSI", "BOBCARD", "Lifetime Free", "Rewards", "Lounge Access"],
+  applyLink: "https://www.bobcard.co.in/credit-card-types/icsi-diamond",
+  termsAndConditionURL: null,
+  isActive: true,
+};
+const bobcardCorporateCreditCard = {
+  cardName: "BOBCARD Corporate Credit Card",
+  financialInstituteName: "Bank of Baroda",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Business", "Corporate", "Rewards"],
+  cardSegment: "Corporate",
+  cardNetwork: "Visa",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "A corporate credit card designed for businesses to manage employee expenses efficiently, offering reward points, fuel surcharge waiver, and complimentary lounge access.",
+  eligibilityExtras: {
+    ageLimit:
+      "21 to 65 years (Primary Cardholder); above 18 years (Add-on Cardholder)",
+    minIncomeText: "Not specified",
+    creditScoreRequirement: "Good to Excellent",
+    employmentType: "Corporate Employee",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Cashback"],
+    rewardRateText: "1 Reward Point per ₹100 spent",
+    rewardConditions:
+      "Reward program not applicable on select MCCs and fuel transactions",
+    bonusCategories: [],
+    redemptionOptions: ["Cashback"],
+    pointValue: 0.25,
+    expiryPolicy: "Points valid as per bank's policy",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "500 Reward Points on spending ₹5,000 within 60 days of card issuance",
+        value: 125,
+        condition: "Spend ₹5,000 within 60 days of card issuance",
+      },
+    ],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 5000,
+      monthlyCap: 250,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: null,
+    other: [
+      {
+        name: "Zero Liability on Lost Card",
+        description:
+          "Report loss of card immediately to ensure zero liability on any fraudulent transactions",
+        value: null,
+      },
+      {
+        name: "Self-Care Portal",
+        description: "Manage card activities through a self-servicing platform",
+        value: null,
+      },
+      {
+        name: "Fourth-Line Embossing",
+        description: "Personalized card with corporate name mentioned",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 8,
+      perQuarter: 2,
+      condition:
+        "Effective 1st Jan, 2025, subject to minimum spends of ₹20,000 in the preceding calendar quarter",
+      partners: [],
+      details: "Access to select domestic airport lounges",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 1000,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "firstYear",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: ["Corporate Employees", "Business Owners"],
+  keywords: ["Corporate", "BOBCARD", "Business", "Rewards", "Lounge Access"],
+  applyLink: "https://www.bobcard.co.in/credit-card-types/corporate",
+  termsAndConditionURL:
+    "https://www.bobcard.co.in/most-important-terms-and-condition",
+  isActive: true,
+};
+
+const iobGoldCreditCard = {
+  cardName: "IOB Gold Credit Card",
+  financialInstituteName: "Indian Overseas Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: [],
+  cardSegment: "Gold",
+  cardNetwork: "Visa",
+  isCoBranded: false,
+  coBrandPartner: "",
+  description:
+    "A globally accepted credit card with basic features, insurance benefits, and flexible payment options.",
+
+  eligibilityExtras: {
+    ageLimit: "18+ years",
+    minIncomeText: "₹15,000/month (salaried), ₹3,00,000/year (self-employed)",
+    creditScoreRequirement: "650+ preferred",
+    employmentType: "Salaried or Self-employed",
+  },
+
+  rewards: {
+    baseRate: 1,
+    rewardType: [],
+    rewardRateText:
+      "IOB Credit Card awards cash back of Rs. 0.20 per point for every Rs. 100/- spent. The same is adjusted towards the monthly outstanding at the time of generation of bill.",
+    rewardConditions: "",
+    bonusCategories: [],
+    redemptionOptions: [],
+    pointValue: 0.2,
+    expiryPolicy: "",
+  },
+
+  features: {
+    welcomeBenefits: [],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: null,
+    entertainment: [],
+    insurance: [
+      {
+        type: "Air Accident - Self",
+        coverageAmount: 400000,
+        description:
+          "Coverage in case of death due to air crash for cardholder",
+      },
+      {
+        type: "Air Accident - Spouse",
+        coverageAmount: 200000,
+        description: "Coverage in case of death due to air crash for spouse",
+      },
+      {
+        type: "Road/Rail Accident - Self",
+        coverageAmount: 200000,
+        description:
+          "Coverage in case of death due to road/rail accident for cardholder",
+      },
+      {
+        type: "Road/Rail Accident - Spouse",
+        coverageAmount: 100000,
+        description:
+          "Coverage in case of death due to road/rail accident for spouse",
+      },
+      {
+        type: "Baggage Insurance",
+        coverageAmount: 25000,
+        description: "Baggage loss or damage coverage",
+      },
+      {
+        type: "Purchase Protection",
+        coverageAmount: 25000,
+        description: "Coverage for lost or damaged purchases",
+      },
+    ],
+    conciergeServices: "",
+    other: [
+      {
+        name: "Add-on Cards",
+        description: "Up to 4 add-on cards available for family members",
+        value: null,
+      },
+      {
+        name: "Cash Withdrawal",
+        description: "Withdraw up to 40% of your credit limit at ATMs",
+        value: null,
+      },
+      {
+        name: "Flexible Payment Option",
+        description: "Pay either full amount due or minimum amount due",
+        value: null,
+      },
+      {
+        name: "Global Acceptance",
+        description:
+          "Accepted at POS terminals and ATMs worldwide on Visa network",
+        value: null,
+      },
+    ],
+  },
+
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      condition: "",
+      partners: [],
+      details: "",
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
+      partners: [],
+      details: "",
+    },
+  },
+
+  cardFees: {
+    joiningFee: null,
+    annualFee: null,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 0,
+    },
+    freeStatus: "lifetime",
+    foreignCurrencyMarkupFee: 2.5,
+  },
+
+  idealFor: ["Basic Users", "Domestic Spenders"],
+  keywords: [
+    "IOB",
+    "Gold Card",
+    "Visa",
+    "Indian Overseas Bank",
+    "Add-on card",
+    "Basic credit card",
+  ],
+  applyLink: "",
+  termsAndConditionURL: "",
+  isActive: true,
+};
+
+const bobPrimeCard = {
+  cardName: "BOBCARD Prime Credit Card",
+  financialInstituteName: "Bank of Baroda",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Cashback", "Entry-Level", "Secured"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Visa",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "A secured credit card issued against a fixed deposit, offering reward points, fuel surcharge waiver, and zero annual fees.",
+  eligibilityExtras: {
+    ageLimit:
+      "18 to 85 years (Primary Cardholder); above 18 years (Add-on Cardholder)",
+    minIncomeText: "Not applicable (Secured against FD)",
+    creditScoreRequirement: "Not applicable (Secured against FD)",
+    employmentType: null,
+  },
+  rewards: {
+    baseRate: 2,
+    rewardType: ["Cashback"],
+    rewardRateText: "2 Reward Points per ₹100 spent on all categories",
+    rewardConditions:
+      "Reward program not applicable on select MCCs and fuel transactions",
+    bonusCategories: [],
+    redemptionOptions: ["Cashback"],
+    pointValue: 0.2,
+    expiryPolicy: "As per bank's policy",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "500 Reward Points on spending ₹5,000 within 60 days of card issuance",
+        value: 100,
+        condition: "Spend ₹5,000 within 60 days of card issuance",
+      },
+    ],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 5000,
+      monthlyCap: 250,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Personal Accidental Death Cover",
+        coverageAmount: 1500000,
+        description: "Air: ₹15 Lakhs, Non-Air: ₹5 Lakhs",
+      },
+    ],
+    conciergeServices: null,
+    other: [
+      {
+        name: "Smart EMI Option",
+        description:
+          "Convert purchases over ₹2,500 into EMIs of 6 to 48 months",
+        value: null,
+      },
+      {
+        name: "Free Add-on Cards",
+        description:
+          "Up to 3 lifetime free add-on cards for family members above 18 years",
+        value: null,
+      },
+      {
+        name: "Zero Liability on Lost Card",
+        description:
+          "Report loss immediately to ensure zero liability on fraudulent transactions",
+        value: null,
+      },
+      {
+        name: "Contactless Payments",
+        description:
+          "Enabled with wireless chip technology for secure and faster payments",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: null,
+      partners: [],
+      details: null,
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 0,
+    annualFee: 0,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "lifetime",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: ["Individuals seeking a secured credit card with reward benefits"],
+  keywords: [
+    "BOBCARD",
+    "Prime",
+    "Secured Credit Card",
+    "Reward Points",
+    "Zero Annual Fee",
+  ],
+  applyLink: "https://www.bobcard.co.in/credit-card-types/prime",
+  termsAndConditionURL:
+    "https://www.bobcard.co.in/most-important-terms-and-condition",
+  isActive: true,
+};
+
+const makeMyTripSignatureICICIcard = {
+  cardName: "MakeMyTrip ICICI Bank Signature",
+  financialInstituteName: "ICICI Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Travel", "Rewards"],
+  cardSegment: "Premium",
+  cardNetwork: "Visa",
+  isCoBranded: true,
+  coBrandPartner: "MakeMyTrip",
+  description:
+    "A travel-focused credit card offering exclusive benefits on MakeMyTrip bookings, including My Cash rewards, complimentary lounge access, and milestone benefits.",
+  eligibilityExtras: {
+    ageLimit: "21 years and above",
+    minIncomeText: "As per bank's discretion",
+    creditScoreRequirement: "Good credit score required",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: ["My Cash"],
+    rewardRateText: "Up to 6% My Cash on MakeMyTrip bookings",
+    rewardConditions:
+      "My Cash earned is credited to the MakeMyTrip My Wallet and is valid for 1 year. Not applicable on rail, offline holiday bookings, and 'Pay at Hotel' bookings.",
+    bonusCategories: [],
+    redemptionOptions: ["Travel bookings on MakeMyTrip", "Partner vouchers"],
+    pointValue: 1,
+    expiryPolicy: "My Cash is valid for 1 year from the date of credit.",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "₹1,500 My Cash credited to MakeMyTrip My Wallet",
+        value: 1500,
+        condition:
+          "Credited within 45 business days of payment of the joining fee.",
+      },
+      {
+        description: "MakeMyTrip Holiday Voucher worth ₹2,500",
+        value: 2500,
+        condition: "Provided as part of the Primary Card Welcome Kit.",
+      },
+      {
+        description: "Complimentary MMTBLACK Exclusive membership",
+        value: null,
+        condition:
+          "Activated within 45 business days of payment of the joining fee.",
+      },
+    ],
+    dining: [
+      {
+        description: "Access to ICICI Bank Culinary Treats Programme",
+        partners: [],
+        discount: null,
+        cap: null,
+      },
+    ],
+    travel: [
+      {
+        description: "Complimentary 10-day Airtel international roaming pack",
+        type: "International",
+        quantity: 1,
+        partners: ["Airtel"],
+        condition:
+          "Book an international flight or hotel via MMT using the card",
+      },
+      {
+        description: " Complimentary 1 railway lounge access per quarter",
+        type: "Domestic",
+        quantity: 1,
+        partners: ["RailYatri"],
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 400,
+      maxTransaction: 5000,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: null,
+    other: [],
+  },
+  offers: [],
+  milestones: [
+    {
+      spendAmount: 250000,
+      benefit: "1,100 My Cash",
+      frequency: "Annual",
+    },
+    {
+      spendAmount: 500000,
+      benefit: "4,000 My Cash",
+      frequency: "Annual",
+    },
+  ],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 8,
+      perQuarter: 2,
+      condition:
+        "Spend ₹75,000 in the preceding calendar quarter to unlock complimentary access for the subsequent quarter.",
+      partners: [],
+      details: "Get 8 complimentary domestic Airport Lounge accesss annually",
+    },
+    international: {
+      available: true,
+      quantity: 1,
+      perQuarter: null,
+      partners: [],
+      details:
+        "Get 1 complimentary International Airport Lounge access annually",
+    },
+  },
+  cardFees: {
+    joiningFee: 2500,
+    annualFee: 0,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: 0.99,
+  },
+  idealFor: ["Frequent Travelers", "MakeMyTrip Users"],
+  keywords: [
+    "MakeMyTrip",
+    "ICICI Bank",
+    "Travel Credit Card",
+    "My Cash",
+    "Lounge Access",
+  ],
+  applyLink:
+    "https://www.icicibank.com/personal-banking/cards/credit-card/makemytrip/signature-card/key-privileges",
+  termsAndConditionURL:
+    "https://www.icicibank.com/terms-condition/tnc-for-signature-credit-card",
+  isActive: true,
+};
+
+const irctcRBLBankRuPayCard = {
+  cardName: "IRCTC RBL Bank RuPay Credit Card",
+  financialInstituteName: "RBL Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Travel", "Rewards"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "RuPay",
+  isCoBranded: true,
+  coBrandPartner: "IRCTC",
+  description:
+    "A co-branded credit card offering exclusive benefits on IRCTC bookings, including reward points, fuel surcharge waiver, and complimentary lounge access.",
+  eligibilityExtras: {
+    ageLimit: "18 years and above",
+    minIncomeText: "As per bank's discretion",
+    creditScoreRequirement: "Good credit score required",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Reward Points"],
+    rewardRateText: "Up to 5% value back on IRCTC bookings",
+    rewardConditions:
+      "Train tickets (5 RP/₹200), Flights/Hotels/Cruise via IRCTC (2 RP), FASTag via RBL/NCMC/UTS App (3 RP), Others (1 RP).",
+    bonusCategories: [],
+    redemptionOptions: ["IRCTC bookings", "Partner vouchers"],
+    pointValue: 1,
+    expiryPolicy: "As per bank's policy",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "500 Reward Points",
+        value: 500,
+        condition: "Spend above ₹500 within 30 days of card issuance",
+      },
+    ],
+    dining: [],
+    travel: [
+      {
+        description: "8 complimentary railway lounge accesses (2 per quarter)",
+        type: "Domestic",
+        quantity: 8,
+        partners: ["IRCTC Lounges"],
+        condition: "",
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: null,
+    other: [
+      {
+        name: "Tap & Transit (NCMC)",
+        description: "Use the card as a transit pass for metros and buses",
+        value: null,
+      },
+      {
+        name: "Scan and Pay (UPI on Credit)",
+        description: "Scan and pay with UPI directly using the credit card",
+        value: null,
+      },
+      {
+        name: "Transaction Fee Reversal",
+        description: "1% IRCTC booking fee (up to ₹200) reversed",
+        value: 200,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: "",
+      partners: [],
+      details: null,
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 500,
+    annualFee: 500,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: ["Frequent Train Travelers", "IRCTC Users"],
+  keywords: [
+    "IRCTC",
+    "RBL Bank",
+    "RuPay",
+    "Travel Credit Card",
+    "Railway Lounge Access",
+  ],
+  applyLink:
+    "https://www.rblbank.com/personal-banking/cards/credit-cards/irctc-rbl-bank-rupay-credit-card",
+  termsAndConditionURL: "https://www.rblbank.com/terms-and-conditions",
+  isActive: true,
+};
