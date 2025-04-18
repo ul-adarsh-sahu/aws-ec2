@@ -10201,3 +10201,454 @@ const irctcRBLBankRuPayCard = {
   termsAndConditionURL: "https://www.rblbank.com/terms-and-conditions",
   isActive: true,
 };
+
+const iciciBankDiamantCreditCard = {
+  cardName: "ICICI Bank Diamant Credit Card",
+  financialInstituteName: "ICICI Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Luxury", "Travel", "Lifestyle", "Golf", "Entertainment"],
+  cardSegment: "Super Premium",
+  cardNetwork: "Mastercard",
+  isCoBranded: false,
+  coBrandPartner: null,
+  description:
+    "An ultra-premium credit card offering exclusive access to private islands, yachts, jets, luxury hotels, golf privileges, entertainment benefits, and comprehensive concierge services.",
+  eligibilityExtras: {
+    ageLimit: null,
+    minIncomeText: null,
+    creditScoreRequirement: null,
+    employmentType: null,
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: [],
+    rewardRateText: null,
+    rewardConditions: null,
+    bonusCategories: [],
+    redemptionOptions: [],
+    pointValue: null,
+    expiryPolicy: null,
+  },
+  features: {
+    welcomeBenefits: [],
+    dining: [],
+    travel: [
+      {
+        description: "Access to private islands, yachts, and jets",
+        type: "International",
+        quantity: null,
+        partners: [],
+        condition: null,
+      },
+      {
+        description:
+          "Memberships to Taj Epicure Plus & InnerCircle Gold, Club ITC Culinaire",
+        type: "Domestic",
+        quantity: 2,
+        partners: ["Taj Hotels", "ITC Hotels"],
+        condition: null,
+      },
+    ],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: null,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [
+      {
+        description:
+          "Complimentary 4 movie tickets every month and exclusive movie screenings",
+        partners: ["BookMyShow"],
+        discount: null,
+      },
+    ],
+    insurance: [
+      {
+        type: "Comprehensive Insurance Cover",
+        coverageAmount: null,
+        description: null,
+      },
+    ],
+    conciergeServices:
+      "Travel & lifestyle privileges, medical privileges, emergency auto assistance",
+    other: [
+      {
+        name: "Golf Privileges",
+        description:
+          "Unlimited complimentary access to select golf courses in 90+ countries",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: "Unlimited",
+      perQuarter: null,
+      condition: "",
+      partners: ["Dreamfolks", "MasterCard Lounge"],
+      details: "Unlimited access to domestic lounges",
+    },
+    international: {
+      available: true,
+      quantity: "Unlimited",
+      perQuarter: null,
+      partners: ["Dreamfolks", "MasterCard Lounge"],
+      details: "Unlimited access to international lounges",
+    },
+  },
+  cardFees: {
+    joiningFee: 125000,
+    annualFee: 10000,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: [
+    "Ultra High Net Worth Individuals",
+    "Luxury Travelers",
+    "Golf Enthusiasts",
+    "Lifestyle Connoisseurs",
+  ],
+  keywords: [
+    "ICICI Bank",
+    "Diamant",
+    "Luxury Credit Card",
+    "Private Island Access",
+    "Golf Privileges",
+    "Concierge Services",
+  ],
+  applyLink:
+    "https://www.icicibank.com/ms/Personal-Banking/cards/consumer-cards/credit-card/diamant/home.html",
+  termsAndConditionURL: null,
+  isActive: true,
+};
+
+const iciciHpclSuperSaverCard = {
+  cardName: "ICICI Bank HPCL Super Saver Credit Card",
+  financialInstituteName: "ICICI Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Fuel", "Cashback", "Utility", "Shopping"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Visa",
+  isCoBranded: true,
+  coBrandPartner: "HPCL",
+  description:
+    "A co-branded credit card offering up to 5% cashback on fuel purchases at HPCL outlets, along with rewards on utility and departmental store spends, movie ticket discounts, and complimentary roadside assistance.",
+  eligibilityExtras: {
+    ageLimit: "21 to 65 years",
+    minIncomeText: "Stable income required",
+    creditScoreRequirement: "Minimum 750",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: ["Cashback", "Reward Points"],
+    rewardRateText:
+      "Up to 5% cashback on fuel at HPCL; 5% reward points on utilities and departmental stores",
+    rewardConditions:
+      "Cashback applicable on fuel purchases at HPCL pumps through ICICI Bank POS machines or HP Pay app. Reward points on utility and departmental store spends.",
+    bonusCategories: [],
+    redemptionOptions: ["Fuel purchases", "Utility bills", "Shopping"],
+    pointValue: null,
+    expiryPolicy: null,
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "2,000 reward points on spending ₹5,000 within 30 days",
+        value: null,
+        condition: "Post joining fee payment and ₹5,000 spend",
+      },
+      {
+        description: "₹100 cashback on HP Pay app activation",
+        value: 100,
+        condition: "Activate card on HP Pay",
+      },
+    ],
+    dining: [
+      {
+        description: "Dining discounts via ICICI Culinary Treats Program",
+        type: "Dining",
+        value: null,
+        condition: "",
+      },
+    ],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [
+      {
+        description:
+          "25% discount up to ₹100 on purchase of minimum two movie tickets per transaction at BookMyShow and INOX, twice a month",
+        partners: ["BookMyShow", "INOX"],
+        discount: 25,
+      },
+    ],
+    insurance: [],
+    conciergeServices: null,
+    other: [
+      {
+        description: "Complimentary 24x7 Roadside Assistance (RSA) services",
+      },
+    ],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 4,
+      perQuarter: 1,
+      condition: "on completion of spend criteria",
+      partners: [],
+      details: null,
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 500,
+    annualFee: 500,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 150000,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: [
+    "Frequent Drivers",
+    "Utility Bill Payers",
+    "Departmental Store Shoppers",
+  ],
+  keywords: [
+    "ICICI Bank",
+    "HPCL",
+    "Fuel Cashback",
+    "Utility Rewards",
+    "Movie Discounts",
+  ],
+  applyLink:
+    "https://www.icicibank.com/personal-banking/cards/credit-card/hpcl-super-saver",
+  termsAndConditionURL: null,
+  isActive: true,
+};
+
+const indianOilRblXtraCard = {
+  cardName: "IndianOil RBL Bank XTRA Credit Card",
+  financialInstituteName: "RBL Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Fuel", "Rewards", "Cashback"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Mastercard",
+  isCoBranded: true,
+  coBrandPartner: "IndianOil",
+  description:
+    "A co-branded credit card offering up to 8.5% value back on fuel purchases at IndianOil outlets, along with fuel points on other spends, milestone rewards, and annual fee waiver on high annual spends.",
+  eligibilityExtras: {
+    ageLimit: "18 years and above",
+    minIncomeText: "As per bank's discretion",
+    creditScoreRequirement: "Good credit score required",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: 2,
+    rewardType: ["Fuel Points"],
+    rewardRateText:
+      "15 Fuel Points per ₹100 spent at IndianOil outlets; 2 Fuel Points per ₹100 on other spends",
+    rewardConditions:
+      "Maximum 2,000 Fuel Points per month on fuel spends. 1 Fuel Point = ₹0.5 when redeemed at IndianOil fuel stations.",
+    bonusCategories: [
+      { category: "IndianOil Fuel", rate: 15, cap: 2000 },
+      { category: "Other spends", rate: 2, cap: null },
+    ],
+    redemptionOptions: ["Fuel purchases at IndianOil outlets"],
+    pointValue: 0.5,
+    expiryPolicy: "As per bank's policy",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "3,000 Fuel Points on first transaction above ₹500 within 30 days of card issuance",
+        value: null,
+        condition:
+          "First transaction above ₹500 within 30 days of card issuance",
+      },
+    ],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: 200,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: null,
+    other: [],
+  },
+  offers: [],
+  milestones: [
+    {
+      spendAmount: 75000,
+      benefit: "1,000 Fuel Points",
+      frequency: "Quarterly",
+    },
+  ],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: null,
+      partners: [],
+      details: null,
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 1500,
+    annualFee: 1500,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 275000,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: ["Frequent Drivers", "Fuel Spenders", "IndianOil Customers"],
+  keywords: [
+    "RBL Bank",
+    "IndianOil",
+    "Fuel Credit Card",
+    "Fuel Points",
+    "Cashback",
+  ],
+  applyLink:
+    "https://www.rblbank.com/personal-banking/cards/credit-cards/indianoil-rbl-bank-xtra-credit-card",
+  termsAndConditionURL: "https://www.rblbank.com/creditcardMITC",
+  isActive: true,
+};
+
+const indianoilRblCard = {
+  cardName: "IndianOil RBL Bank Credit Card",
+  financialInstituteName: "RBL Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Fuel", "Rewards"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Mastercard",
+  isCoBranded: true,
+  coBrandPartner: "IndianOil",
+  description:
+    "A co-branded credit card offering up to 5% value back on fuel purchases at IndianOil outlets, along with reward points on other spends and annual fee waiver on high annual spends.",
+  eligibilityExtras: {
+    ageLimit: "18 years and above",
+    minIncomeText: "As per bank's discretion",
+    creditScoreRequirement: "Good credit score required",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Fuel Points"],
+    rewardRateText:
+      "10 Fuel Points per ₹100 spent at IndianOil outlets; 1 Fuel Point per ₹100 on other spends",
+    rewardConditions:
+      "Maximum 1,000 Fuel Points per month on fuel spends. 1 Fuel Point = ₹0.5 when redeemed at IndianOil fuel stations.",
+    bonusCategories: [
+      { category: "IndianOil Fuel", rate: 10, cap: 1000 },
+      { category: "Other spends", rate: 1, cap: null },
+    ],
+    redemptionOptions: ["Fuel purchases at IndianOil outlets"],
+    pointValue: 0.1,
+    expiryPolicy: "As per bank's policy",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "1,000 Fuel Points on first transaction above ₹500 within 30 days of card issuance",
+        value: null,
+        condition:
+          "First transaction above ₹500 within 30 days of card issuance",
+      },
+    ],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 500,
+      maxTransaction: 4000,
+      monthlyCap: 100,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: null,
+    other: [],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: null,
+      partners: [],
+      details: null,
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 500,
+    annualFee: 500,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 175000,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: 3.5,
+  },
+  idealFor: ["Frequent Drivers", "Fuel Spenders", "IndianOil Customers"],
+  keywords: ["RBL Bank", "IndianOil", "Fuel Credit Card", "Fuel Points"],
+  applyLink: "https://www.rblbank.com/indianoil-rbl-bank-credit-card",
+  termsAndConditionURL: "https://www.rblbank.com/creditcardMITC",
+  isActive: true,
+};
