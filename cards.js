@@ -10652,3 +10652,562 @@ const indianoilRblCard = {
   termsAndConditionURL: "https://www.rblbank.com/creditcardMITC",
   isActive: true,
 };
+
+const cubCskMasterworldCard = {
+  cardName: "CUB CSK MasterWorld Credit Card",
+  financialInstituteName: "City Union Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Co-branded", "Cricket", "Rewards", "Lifestyle"],
+  cardSegment: "Premium",
+  cardNetwork: "Mastercard",
+  isCoBranded: true,
+  coBrandPartner: "Chennai Super Kings (CSK)",
+  description:
+    "A premium co-branded credit card offering exclusive CSK merchandise, fuel surcharge waiver, airport lounge access, and comprehensive insurance coverage.",
+  eligibilityExtras: {
+    ageLimit: "18-65 years",
+    minIncomeText: null,
+    creditScoreRequirement: null,
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: [],
+    rewardRateText: null,
+    rewardConditions: null,
+    bonusCategories: [],
+    redemptionOptions: [],
+    pointValue: null,
+    expiryPolicy: null,
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "Original Dhoni No.7 Jersey as a welcome gift",
+        value: null,
+        condition: null,
+      },
+    ],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Personal Accident Coverage",
+        coverageAmount: null,
+        description: null,
+      },
+      {
+        type: "Air Accident Insurance",
+        coverageAmount: null,
+        description: null,
+      },
+    ],
+    conciergeServices: null,
+    other: [],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: null,
+      perQuarter: null,
+      condition: null,
+      partners: [],
+      details: null,
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 4000,
+    annualFee: 4000,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: 2.5,
+  },
+  idealFor: ["CSK Fans", "Cricket Enthusiasts", "Premium Lifestyle Seekers"],
+  keywords: [
+    "City Union Bank",
+    "CSK",
+    "MasterWorld",
+    "Cricket Credit Card",
+    "Premium Benefits",
+  ],
+  applyLink:
+    "https://cubcard.cityunionbank.in/cub-cc-ui/page/apply/credit-cards?utm_source=website&utm_medium=csk-banner&utm_campaign=CSK",
+  termsAndConditionURL: null,
+  isActive: true,
+};
+
+const cubCskRuPayPlatinumCard = {
+  cardName: "CUB CSK RuPay Platinum Credit Card",
+  financialInstituteName: "City Union Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Co-branded", "Cricket", "Rewards", "Lifestyle"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "RuPay",
+  isCoBranded: true,
+  coBrandPartner: "Chennai Super Kings (CSK)",
+  description:
+    "An entry-level co-branded credit card offering exclusive CSK merchandise, fuel surcharge waiver, airport lounge access, and comprehensive insurance coverage.",
+  eligibilityExtras: {
+    ageLimit: "18 to 65 years",
+    minIncomeText: "As per bank's discretion",
+    creditScoreRequirement: "Good credit score required",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: [],
+    rewardRateText: null,
+    rewardConditions: null,
+    bonusCategories: [],
+    redemptionOptions: [],
+    pointValue: null,
+    expiryPolicy: null,
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description: "Exclusive CSK co-branded goodies as a welcome gift",
+        value: null,
+        condition: null,
+      },
+    ],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Personal Accident Coverage",
+        coverageAmount: null,
+        description: null,
+      },
+      {
+        type: "Air Accident Insurance",
+        coverageAmount: null,
+        description: null,
+      },
+    ],
+    conciergeServices: null,
+    other: [],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: null,
+      perQuarter: null,
+      condition: null,
+      partners: [],
+      details: null,
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 500,
+    annualFee: 500,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: [
+    "CSK Fans",
+    "Cricket Enthusiasts",
+    "Entry-Level Credit Card Users",
+  ],
+  keywords: [
+    "City Union Bank",
+    "CSK",
+    "RuPay",
+    "Cricket Credit Card",
+    "Entry-Level Benefits",
+  ],
+  applyLink: "https://www.cityunionbank.com/ta-in/co-branded-creditcard",
+  termsAndConditionURL: null,
+  isActive: true,
+};
+
+const cubCskMasterPlatinumCard = {
+  cardName: "CUB CSK Master Platinum Credit Card",
+  financialInstituteName: "City Union Bank",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Co-branded", "Cricket", "Rewards", "Lifestyle"],
+  cardSegment: "Mid-Tier",
+  cardNetwork: "Mastercard",
+  isCoBranded: true,
+  coBrandPartner: "Chennai Super Kings (CSK)",
+  description:
+    "A mid-tier co-branded credit card offering an official CSK fan jersey as a welcome gift, fuel surcharge waiver, airport lounge access, and comprehensive insurance coverage.",
+  eligibilityExtras: {
+    ageLimit: "18 to 65 years",
+    minIncomeText: "As per bank's discretion",
+    creditScoreRequirement: "Good credit score required",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: null,
+    rewardType: [],
+    rewardRateText: null,
+    rewardConditions: null,
+    bonusCategories: [],
+    redemptionOptions: [],
+    pointValue: null,
+    expiryPolicy: null,
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "Official CSK fan jersey as a welcome gift (subject to spend threshold)",
+        value: null,
+        condition: "Subject to spend threshold",
+      },
+    ],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: null,
+      maxTransaction: null,
+      monthlyCap: null,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Personal Accident Coverage",
+        coverageAmount: null,
+        description: null,
+      },
+      {
+        type: "Air Accident Insurance",
+        coverageAmount: null,
+        description: null,
+      },
+    ],
+    conciergeServices: null,
+    other: [],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: null,
+      perQuarter: null,
+      condition: null,
+      partners: [],
+      details: null,
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 1000,
+    annualFee: 1000,
+    canBeWaivedOff: false,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: null,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: ["CSK Fans", "Cricket Enthusiasts", "Mid-Tier Credit Card Users"],
+  keywords: [
+    "City Union Bank",
+    "CSK",
+    "Mastercard",
+    "Cricket Credit Card",
+    "Mid-Tier Benefits",
+  ],
+  applyLink: "https://www.cityunionbank.com/ta-in/co-branded-creditcard",
+  termsAndConditionURL: null,
+  isActive: true,
+};
+
+const cityUnionBankSimplySaveCard = {
+  cardName: "City Union Bank SimplySAVE SBI Card",
+  financialInstituteName: "State Bank of India (SBI)",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Shopping", "Rewards", "Fuel"],
+  cardSegment: "Entry-Level",
+  cardNetwork: "Visa",
+  isCoBranded: true,
+  coBrandPartner: "City Union Bank",
+  description:
+    "An entry-level co-branded credit card offering accelerated reward points on daily spends, fuel surcharge waiver, and annual fee reversal on achieving spend milestones.",
+  eligibilityExtras: {
+    ageLimit: "18 years and above",
+    minIncomeText: "As per bank's discretion",
+    creditScoreRequirement: "Good credit score required",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: 1,
+    rewardType: ["Reward Points"],
+    rewardRateText:
+      "10 Reward Points per ₹150 spent on Dining, Movies, Departmental Stores, and Grocery; 1 Reward Point per ₹150 on other spends",
+    rewardConditions:
+      "Accelerated reward points applicable on specified categories; 4 Reward Points = ₹1",
+    bonusCategories: [
+      {
+        category: "Dining",
+        points: 10,
+      },
+      {
+        category: "Movies",
+        points: 10,
+      },
+      {
+        category: "Departmental Stores",
+        points: 10,
+      },
+    ],
+    redemptionOptions: [
+      "Pay outstanding balance",
+      "Redeem against gifts from Rewards Catalogue",
+    ],
+    pointValue: 0.25,
+    expiryPolicy: "2 Years from the date of credit",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "2,000 bonus Reward Points on spending ₹2,000 or more within the first 60 days",
+        value: null,
+        condition: "Spend ₹2,000 or more within 60 days of card issuance",
+      },
+    ],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 500,
+      maxTransaction: 3000,
+      monthlyCap: 100,
+    },
+    entertainment: [],
+    insurance: [],
+    conciergeServices: null,
+    other: [],
+  },
+  offers: [],
+  milestones: [],
+  loungeAccess: {
+    domestic: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      condition: null,
+      partners: [],
+      details: null,
+    },
+    international: {
+      available: false,
+      quantity: 0,
+      perQuarter: null,
+      partners: [],
+      details: null,
+    },
+  },
+  cardFees: {
+    joiningFee: 499,
+    annualFee: 499,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 100000,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: ["Daily Shoppers", "Budget-Conscious Users", "Fuel Spenders"],
+  keywords: [
+    "SBI Card",
+    "City Union Bank",
+    "SimplySAVE",
+    "Reward Points",
+    "Fuel Surcharge Waiver",
+  ],
+  applyLink:
+    "https://www.sbicard.com/en/personal/credit-cards/banking-partnership/city-union-bank-simplysave-sbi-card.page",
+  termsAndConditionURL:
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/banking-ekit/CUB-tnc.pdf",
+  isActive: true,
+};
+
+const cityUnionBankSBIPrimeCard = {
+  cardName: "City Union Bank SBI Card PRIME",
+  financialInstituteName: "State Bank of India (SBI)",
+  cardType: "CREDIT CARD",
+  cardCategories: ["Lifestyle", "Rewards", "Travel", "Dining"],
+  cardSegment: "Premium",
+  cardNetwork: "Visa",
+  isCoBranded: true,
+  coBrandPartner: "City Union Bank",
+  description:
+    "A premium co-branded credit card offering a host of lifestyle privileges including welcome e-gift vouchers, milestone rewards, lounge access, and comprehensive insurance coverage.",
+  eligibilityExtras: {
+    ageLimit: "18 years and above",
+    minIncomeText: "As per bank's discretion",
+    creditScoreRequirement: "Good credit score required",
+    employmentType: "Salaried or Self-employed",
+  },
+  rewards: {
+    baseRate: 2,
+    rewardType: ["Reward Points"],
+    rewardRateText: "2 Reward Points per ₹100 on all retail spends",
+    rewardConditions:
+      "4 Reward Points = ₹1; Reward Points not accrued on rent and government-related transactions",
+    bonusCategories: [],
+    redemptionOptions: [
+      "Pay outstanding balance",
+      "Redeem against gifts from Rewards Catalogue",
+    ],
+    pointValue: 0.25,
+    expiryPolicy: "2 Years from the date of credit",
+  },
+  features: {
+    welcomeBenefits: [
+      {
+        description:
+          "₹3,000 worth e-Gift Voucher from brands like Bata/Hush Puppies, Pantaloons, Shoppers Stop, Yatra, and Aditya Birla Fashion",
+        value: 3000,
+        condition: "Upon payment of joining fee",
+      },
+    ],
+    dining: [],
+    travel: [],
+    shopping: [],
+    fuel: {
+      surchargeWaiver: 1,
+      minTransaction: 500,
+      maxTransaction: 4000,
+      monthlyCap: 250,
+    },
+    entertainment: [],
+    insurance: [
+      {
+        type: "Fraud Liability Cover",
+        coverageAmount: 100000,
+        description:
+          "Covers unauthorized transactions up to ₹1 lakh if reported within 48 hours prior and 7 days post reporting the loss",
+      },
+      {
+        type: "Personal Accident Cover",
+        coverageAmount: 100000,
+        description: "Air accidental liability cover of ₹50 lakh",
+      },  
+    ],
+    conciergeServices: null,
+    other: [
+      {
+        description: "Club Vistara Membership",
+        value: null,
+      },
+    ],
+  },
+  offers: [],
+  milestones: [
+    {
+      description:
+        "Pizza Hut e-Voucher worth ₹1,000 on quarterly spends of ₹50,000",
+      value: 1000,
+      condition: "Spend ₹50,000 in a calendar quarter",
+    },
+    {
+      description:
+        "E-Gift Voucher worth ₹7,000 from Yatra.com/Pantaloons on annual spends of ₹5 Lakhs",
+      value: 7000,
+      condition: "Spend ₹5 Lakhs in a year",
+    },
+  ],
+  loungeAccess: {
+    domestic: {
+      available: true,
+      quantity: 8,
+      perQuarter: 2,
+      condition: null,
+      partners: [],
+      details: "Access to domestic lounges as per network partner's terms",
+    },
+    international: {
+      available: true,
+      quantity: 4,
+      perQuarter: null,
+      partners: ["Priority Pass"],
+      details:
+        "Complimentary international lounge access through Priority Pass",
+    },
+  },
+  cardFees: {
+    joiningFee: 2999,
+    annualFee: 2999,
+    canBeWaivedOff: true,
+    waiveOffSpendCondition: {
+      currency: "INR",
+      amount: 300000,
+    },
+    freeStatus: "none",
+    foreignCurrencyMarkupFee: null,
+  },
+  idealFor: ["Frequent Travelers", "Lifestyle Enthusiasts", "High Spenders"],
+  keywords: [
+    "SBI Card",
+    "City Union Bank",
+    "PRIME",
+    "Reward Points",
+    "Lounge Access",
+    "Milestone Benefits",
+  ],
+  applyLink:
+    "https://www.sbicard.com/en/personal/credit-cards/banking-partnership/city-union-bank-sbi-card-prime.page",
+  termsAndConditionURL:
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/banking-tnc/city-union-prime-tnc.pdf",
+  isActive: true,
+};
