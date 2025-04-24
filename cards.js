@@ -363,10 +363,10 @@ const sbiPulseCard = {
     rewardConditions:
       "10 RP per ₹100 on Chemist, Pharmacy, Sports, Dining, Movies. 2 RP elsewhere.",
     bonusCategories: [
-      { category: "Chemist & Pharmacy", rate: 10 },
-      { category: "Sports", rate: 10 },
-      { category: "Dining", rate: 10 },
-      { category: "Movies", rate: 10 },
+      { category: "Chemist & Pharmacy", rate: 10, cap: null },
+      { category: "Sports", rate: 10, cap: null },
+      { category: "Dining", rate: 10, cap: null },
+      { category: "Movies", rate: 10, cap: null },
     ],
     redemptionOptions: ["Gift Vouchers", "Products"],
     pointValue: 0.25, // ₹1 = 4 Points
@@ -436,8 +436,18 @@ const sbiPulseCard = {
     ],
     conciergeServices: "",
     other: [
-      "1-year FITPASS PRO Membership every year on renewal",
-      "1-year Netmeds First Membership every year on renewal (T&C apply)",
+      {
+        name: "FITPASS PRO Membership ",
+        description:
+          "1-year FITPASS PRO Membership every year on renewal (T&C apply)",
+        value: null,
+      },
+      {
+        name: "Netmeds First Membership ",
+        description:
+          "1-year Netmeds First Membership every year on renewal (T&C apply)",
+        value: null,
+      },
     ],
   },
 
@@ -770,10 +780,9 @@ const idfcFirstSelectCard = {
     },
     entertainment: [
       {
-        description: "Buy-One-Get-One on movie tickets",
+        description: "Buy-One-Get-One on movie tickets twice a month",
         partners: [],
-        discount: 125,
-        cap: 2, // Twice per month
+        discount: 50,
       },
     ],
     insurance: [
@@ -936,7 +945,7 @@ const idfcFirstClassicCard = {
     travel: [
       {
         description: "Complimentary Railway Lounge Access",
-        type: "Domestic",
+        type: "Domestic Railway",
         quantity: 4,
         partners: [],
         condition: "4 visits per quarter",
@@ -951,10 +960,9 @@ const idfcFirstClassicCard = {
     },
     entertainment: [
       {
-        description: "25% discount on movie tickets",
+        description: "25% discount on movie ticket only once a month",
         partners: ["District by Zomato"],
-        discount: 100,
-        cap: 1, // Once per month
+        discount: 25,
       },
     ],
     insurance: [
@@ -1116,7 +1124,6 @@ const lifestyleHcSbiCardPrime = {
         description: "10 Reward Points per ₹100 spent on movies",
         partners: [],
         discount: null,
-        cap: null,
       },
     ],
     insurance: [],
@@ -1267,7 +1274,7 @@ const idfcFirstWealthCard = {
     travel: [
       {
         description: "Complimentary Railway Lounge Access",
-        type: "Domestic",
+        type: "Domestic Railway",
         quantity: 4,
         partners: [],
         condition: "4 visits per quarter",
@@ -1289,10 +1296,9 @@ const idfcFirstWealthCard = {
     },
     entertainment: [
       {
-        description: "Buy-One-Get-One on movie tickets",
+        description: "Buy-One-Get-One on movie tickets twice a month",
         partners: ["District by Zomato"],
-        discount: 250,
-        cap: 2,
+        discount: 50,
       },
     ],
     insurance: [
@@ -1319,12 +1325,6 @@ const idfcFirstWealthCard = {
     ],
     conciergeServices: "Exclusive concierge services available",
     other: [
-      {
-        name: "Low Forex Markup",
-        description:
-          "Low forex markup fee of 1.5% on international transactions",
-        value: 1.5,
-      },
       {
         name: "Interest-Free Cash Withdrawals",
         description:
@@ -1462,7 +1462,6 @@ const idfcFirstEarnCard = {
         description: "25% discount up to ₹100 on movie tickets",
         partners: ["District by Zomato"],
         discount: 25,
-        cap: 100,
       },
     ],
     insurance: [
@@ -1790,7 +1789,7 @@ const tataTitaniumCard = {
       currency: "INR",
       amount: 100000,
     },
-    freeStatus: "conditional",
+    freeStatus: "none",
     foreignCurrencyMarkupFee: 3.5,
   },
 
@@ -1825,6 +1824,7 @@ const bankOfBarodaEternaCreditCard = {
   eligibilityExtras: {
     ageLimit: "21-65 years",
     minIncomeText: "₹12 lakh annually",
+    creditScoreRequirement: "Good credit score required",
     employmentType: "Salaried / Self-employed",
   },
 
@@ -1842,7 +1842,7 @@ const bankOfBarodaEternaCreditCard = {
       },
     ],
     redemptionOptions: ["Merchandise", "Vouchers", "Statement Credit"],
-    pointValue: "Varies based on redemption option",
+    pointValue: null,
     expiryPolicy:
       "Reward Points are valid for 2 years from the date of accrual",
   },
@@ -1865,6 +1865,7 @@ const bankOfBarodaEternaCreditCard = {
         description: "15% off at select restaurants",
         partners: ["Bank of Baroda Eterna Dining Delights"],
         discount: 15,
+        cap: null,
       },
     ],
     travel: [
@@ -1888,7 +1889,6 @@ const bankOfBarodaEternaCreditCard = {
         description: "Buy 1 Get 1 Free Movie ticket via District upto 250.",
         partners: ["District"],
         discount: 50,
-        cap: null,
       },
     ],
     insurance: [
@@ -2001,7 +2001,6 @@ const tataStarTitaniumCard = {
     minIncomeText: "Not specified",
     creditScoreRequirement: "Good credit score required",
     employmentType: "Salaried or Self-Employed",
-    otherCriteria: "Subject to bank's internal policies",
   },
 
   rewards: {
@@ -2116,7 +2115,7 @@ const tataStarTitaniumCard = {
       currency: "INR",
       amount: 100000,
     },
-    freeStatus: "conditional",
+    freeStatus: "none",
     foreignCurrencyMarkupFee: 3.5,
   },
 
@@ -2142,7 +2141,7 @@ const irctcBoBCreditCard = {
   financialInstituteName: "Bank of Baroda",
   cardType: "CREDIT CARD",
   cardCategories: ["Travel", "Rewards"],
-  cardSegment: "Co-Branded",
+  cardSegment: "Entry Level Co-Branded",
   cardNetwork: "Visa",
   isCoBranded: true,
   coBrandPartner: "IRCTC",
@@ -2258,6 +2257,7 @@ const irctcBoBCreditCard = {
       available: false,
       quantity: 0,
       perQuarter: 0,
+      condition: null,
       partners: [],
       details: null,
     },
@@ -2265,6 +2265,7 @@ const irctcBoBCreditCard = {
       available: false,
       quantity: 0,
       perQuarter: 0,
+      condition: null,
       partners: [],
       details: null,
     },
@@ -2437,7 +2438,6 @@ const bobcardPremierCreditCard = {
     waiveOffSpendCondition: {
       currency: "INR",
       amount: 10000,
-      period: "first 60 days",
     },
     freeStatus: "none",
     foreignCurrencyMarkupFee: null,
@@ -2656,14 +2656,6 @@ const iciciStudentTravelCard = {
     travel: [
       {
         description:
-          "Complimentary Indian International lounge access worth USD 20.",
-        type: "Airport Lounge",
-        quantity: 1,
-        partners: [],
-        condition: "One-time access.",
-      },
-      {
-        description:
           "40% discount on excess baggage and 20% discount on courier services through DHL.",
         type: "Baggage and Courier",
         quantity: null,
@@ -2676,14 +2668,14 @@ const iciciStudentTravelCard = {
     entertainment: [],
     insurance: [
       {
-        name: "Card Protection Plus",
+        type: "Card Protection Plus",
         description: "Insurance cover worth ₹1,600 for card protection",
-        value: 1600,
+        coverageAmount: 1600,
       },
       {
-        name: "Lost/Counterfeit Card Liability",
+        type: "Lost/Counterfeit Card Liability",
         description: "Coverage up to ₹5,00,000",
-        value: 500000,
+        coverageAmount: 500000,
       },
     ],
     conciergeServices: null,
@@ -2737,7 +2729,7 @@ const iciciStudentTravelCard = {
     annualFee: 0,
     canBeWaivedOff: false,
     waiveOffSpendCondition: null,
-    freeStatus: "lifetime",
+    freeStatus: "none",
     foreignCurrencyMarkupFee: 3.5,
   },
 
@@ -2784,7 +2776,7 @@ const iciciStudentSapphiroForexCard = {
     bonusCategories: [
       {
         category: "Groceries & Transit (International)",
-        rate: "5%",
+        rate: 5,
         cap: 3000,
       },
     ],
@@ -2817,9 +2809,9 @@ const iciciStudentSapphiroForexCard = {
     entertainment: [],
     insurance: [
       {
-        name: "Card Protection Plus",
+        type: "Card Protection Plus",
         description: "Insurance coverage worth ₹1,600 for card protection",
-        value: 1600,
+        coverageAmount: 1600,
       },
     ],
     conciergeServices: null,
@@ -2874,7 +2866,7 @@ const iciciStudentSapphiroForexCard = {
     annualFee: 0,
     canBeWaivedOff: false,
     waiveOffSpendCondition: null,
-    freeStatus: "conditional",
+    freeStatus: "none",
     foreignCurrencyMarkupFee: 0,
   },
 
@@ -3156,7 +3148,7 @@ const tataStarPlatinumCard = {
       perQuarter: 2,
       condition: null,
       partners: ["MasterCard"],
-      details: null,
+      details: "Complimentary access to domestic MasterCard lounges in India",
     },
     international: {
       available: false,
@@ -3521,14 +3513,6 @@ const auBankZenithPlusCreditCard = {
         partners: null,
         condition: null,
       },
-      {
-        description:
-          "Lowest forex markup of 0.99% for international transactions.",
-        type: "International Transactions",
-        quantity: null,
-        partners: null,
-        condition: null,
-      },
     ],
     shopping: [],
     fuel: {
@@ -3700,15 +3684,7 @@ const idfcFirstWowCreditCard = {
         cap: null,
       },
     ],
-    travel: [
-      {
-        description: "Zero forex markup on international transactions",
-        type: "International",
-        quantity: null,
-        partners: null,
-        condition: null,
-      },
-    ],
+    travel: [],
     shopping: [],
     fuel: null,
     entertainment: [],
@@ -3988,12 +3964,12 @@ const idfcFirstPrivateCreditCard = {
       {
         category: "Online Spends",
         rate: 6,
-        cap: 30000,
+        cap: null,
       },
       {
         category: "In-store Spends",
         rate: 3,
-        cap: 30000,
+        cap: null,
       },
       {
         category: "Incremental & Birthday Spends",
@@ -4024,16 +4000,11 @@ const idfcFirstPrivateCreditCard = {
     dining: [],
     travel: [
       {
-        description:
-          "Zero foreign exchange markup fee on international transactions.",
-        type: "International",
-        quantity: null,
-        partners: null,
-        condition: null,
-      },
-      {
         description: "Unlimited railway lounge access within India",
         type: "Railway Lounge",
+        quantity: null,
+        partners: ["IRCTC"],
+        condition: null,
       },
     ],
     shopping: [],
@@ -4082,6 +4053,7 @@ const idfcFirstPrivateCreditCard = {
         name: "Golf",
         description:
           "Unlimited complimentary access to golf rounds and lessons",
+        value: null,
       },
     ],
   },
@@ -4164,22 +4136,22 @@ const clubVistaraIDFCFIRSTCreditCard = {
     bonusCategories: [
       {
         category: "Dining on Birthday",
-        rate: "10 CV Points/₹200",
+        rate: 10,
         cap: null,
       },
       {
         category: "All Other Spends (up to ₹1L)",
-        rate: "6 CV Points/₹200",
+        rate: 6,
         cap: null,
       },
       {
         category: "Spends > ₹1L",
-        rate: "4 CV Points/₹200",
+        rate: 4,
         cap: null,
       },
       {
         category: "Fuel, Insurance, Utilities, Rent, Wallet Loads",
-        rate: "1 CV Point/₹200",
+        rate: 1,
         cap: null,
       },
     ],
@@ -4234,8 +4206,9 @@ const clubVistaraIDFCFIRSTCreditCard = {
         description:
           "Complimentary Club Vistara Silver Membership benefits including priority check-in, increased baggage allowance, priority waitlist clearance, and complimentary in-flight Wi-Fi.",
         partners: ["Vistara"],
-        discount: null,
-        cap: null,
+        type: "Airline Membership",
+        quantity: null,
+        condition: null,
       },
     ],
     shopping: [],
@@ -4248,22 +4221,26 @@ const clubVistaraIDFCFIRSTCreditCard = {
     entertainment: [],
     insurance: [
       {
+        type: "Trip Cancellation Cover",
+        coverageAmount: 10000,
         description:
           "Trip cancellation cover up to ₹10,000 on flight and hotel bookings (2 claims annually).",
-        value: 10000,
       },
       {
+        type: "Personal Accident Cover",
+        coverageAmount: 1000000,
         description: "Personal accident cover of ₹10,00,000.",
-        value: 1000000,
       },
       {
+        type: "Card Liability Cover",
+        coverageAmount: 50000,
         description: "Lost card liability cover of ₹50,000.",
-        value: 50000,
       },
       {
+        type: "Baggage Cover",
+        coverageAmount: null,
         description:
           "Coverage up to USD 1,200 for loss of checked-in baggage, delay of checked-in baggage, loss of passport and other documents, and flight delays.",
-        value: null,
       },
     ],
     conciergeServices: "",
@@ -4426,21 +4403,6 @@ const idfcFirstAshvaMetalCreditCard = {
         partners: null,
         condition: "Per quarter.",
       },
-      {
-        description: "Low forex markup fee on international transactions.",
-        type: "International",
-        quantity: null,
-        partners: null,
-        condition: "1% forex markup fee.",
-      },
-      {
-        description:
-          "Complimentary trip cancellation coverage worth ₹25,000 twice a year.",
-        type: "Travel Insurance",
-        quantity: 2,
-        partners: null,
-        condition: "Coverage applicable twice per year.",
-      },
     ],
     shopping: [],
     fuel: {
@@ -4455,7 +4417,6 @@ const idfcFirstAshvaMetalCreditCard = {
           "Buy one get one free movie tickets up to ₹400 through BookMyShow, twice a month.",
         partners: ["BookMyShow"],
         discount: 50,
-        cap: 2,
       },
     ],
     insurance: [
@@ -4480,6 +4441,11 @@ const idfcFirstAshvaMetalCreditCard = {
         coverageAmount: 500000,
         description: "Coverage for travel-related contingencies.",
       },
+      {
+        type: "Travel Insurance",
+        coverageAmount: 50000,
+        description: "Coverage for trip cancellations and delays.",
+      },
     ],
     conciergeServices:
       "Dedicated concierge services for travel, dining, and entertainment reservations.",
@@ -4500,11 +4466,13 @@ const idfcFirstAshvaMetalCreditCard = {
         name: "Hotel Stay",
         description:
           "Get a complimentary 3rd night for every 2 consecutive paid nights at ITC Hotels using promo code ITCVIS. OR enjoy 50% off the 2nd night using promo code ITCV50. Offer valid only on bookings made via ITC Hotels website.",
+        value: null,
       },
       {
         name: "Hotel Stay",
         description:
           "Stay for 3, Pay for 2 at Elivaas OR get 50% off your 2nd night. Offers applicable on bookings at Elivaas’ properties.",
+        value: null,
       },
     ],
   },
@@ -4588,8 +4556,6 @@ const idfcFirstSwypEmiCreditCard = {
         category: "UPI Spends",
         rate: 100,
         cap: null,
-        condition:
-          "Earn 100 Reward Points on every ₹5,000 UPI spends per statement month",
       },
     ],
     redemptionOptions: ["Travel", "Lifestyle", "Merchandise"],
@@ -4674,19 +4640,20 @@ const idfcFirstSwypEmiCreditCard = {
         description: "10% discount up to ₹100 on TATA CLiQ purchases.",
         partners: ["TATA CLiQ"],
         discount: 10,
-        cap: 100,
-        condition: "Minimum purchase of ₹999, once a month.",
+        categories: ["Electronics", "Fashion", "Food", "Gadgets", "Health"],
       },
       {
         description:
           "10% off upto ₹500 once on Nykaa Beauty, Nykaa Men and Nykaa Fashion every month",
         partners: ["NYKAA"],
         discount: 10,
+        categories: ["Beauty", "Fashion"],
       },
       {
         description: "20% off upto ₹270 once a month",
         partners: ["SUGAR"],
         discount: 20,
+        categories: ["Beauty"],
       },
     ],
     fuel: {
@@ -4805,7 +4772,7 @@ const axisMyZoneCreditCard = {
   cardType: "CREDIT CARD",
   cardCategories: ["Lifestyle", "Entertainment", "Dining", "Shopping"],
   cardSegment: "Entry Level",
-  cardNetwork: "Visa/ Rupay/ MasterCard", // Also available on RuPay and MasterCard
+  cardNetwork: "Visa/ Rupay/ MasterCard",
   isCoBranded: false,
   coBrandPartner: null,
   description:
@@ -4963,6 +4930,7 @@ const auVettaCreditCard = {
         description: "Discounts at select restaurants",
         partners: ["EazyDiner"],
         discount: 15,
+        cap: null,
       },
     ],
     travel: [
@@ -4972,6 +4940,7 @@ const auVettaCreditCard = {
         type: "Railway",
         quantity: 8,
         partners: ["Visa Domestic Lounge Program"],
+        condition: null,
       },
     ],
     shopping: [],
@@ -5094,7 +5063,7 @@ const auSpontCard = {
     welcomeBenefits: [
       {
         description: "500 coins on first UPI transaction via AU 0101 app",
-        value: null,
+        value: 500,
         condition: "First UPI transaction via AU 0101 app",
       },
     ],
@@ -5407,7 +5376,7 @@ const nomoAuCard = {
       perQuarter: 2,
       condition: "Spend ₹30,000 in previous quarter",
       partners: [],
-      details: "",
+      details: "Complimentary 2 domestic airport lounge access per quarter",
     },
     international: {
       available: false,
@@ -5425,7 +5394,7 @@ const nomoAuCard = {
       currency: "",
       amount: 0,
     },
-    freeStatus: "lifetime",
+    freeStatus: null,
     foreignCurrencyMarkupFee: 0.99,
   },
   idealFor: [
@@ -5755,7 +5724,7 @@ const tataNeuPlusHdfcCreditCard = {
   cardSegment: "Entry-Level",
   cardNetwork: "Rupay/Visa",
   isCoBranded: true,
-  coBrandPartner: "Tata Neu",
+  coBrandPartner: "Tata",
   description:
     "A co-branded credit card offering NeuCoins on Tata Neu app purchases, UPI transactions, and more, with additional benefits like lounge access and fuel surcharge waiver.",
   eligibilityExtras: {
@@ -5863,7 +5832,7 @@ const tataNeuPlusHdfcCreditCard = {
     },
   },
   cardFees: {
-    joiningFee: 499,
+    joiningFee: 0,
     annualFee: 499,
     canBeWaivedOff: true,
     waiveOffSpendCondition: {
@@ -6036,6 +6005,7 @@ const iciciSapphiroCreditCard = {
         description:
           "Welcome vouchers worth ₹9,000+ within 45 days of joining fee payment",
         value: 9000,
+        condition: "Joining fee payment",
       },
     ],
     dining: [
@@ -6259,7 +6229,7 @@ const iciciRubyxCreditCard = {
           "Up to 10X Reward Points on flight and hotel bookings via SmartBuy.",
         type: "Domestic & International",
         quantity: null,
-        partners: [],
+        partners: ["SmartBuy"],
         condition: "",
       },
       {
@@ -6267,7 +6237,7 @@ const iciciRubyxCreditCard = {
           "Complimentary Railway Lounge Access on spending ₹30,000 in previous quarter.",
         type: "Railway",
         quantity: 8,
-        partners: [],
+        partners: ["IRCTC"],
         condition: "Spend ₹30,000 in previous quarter",
       },
     ],
@@ -6356,13 +6326,14 @@ const iciciRubyxCreditCard = {
   offers: [],
   milestones: [
     {
-      description: "Earn 3,000 Reward Points on annual spends of ₹3,00,000",
-      value: 3000,
+      spendAmount: 300000,
+      benefit: "3,000 Reward Points on annual spends of ₹3,00,000",
+      frequency: "Annual",
     },
     {
-      description:
-        "Earn 1,500 Reward Points for every additional ₹1 lakh spent (max 15,000 points/year)",
-      value: 15000,
+      spendAmount: 100000,
+      benefit: "1,500 Reward Points on every additional ₹1 lakh spent",
+      frequency: "Annual",
     },
   ],
   loungeAccess: {
@@ -6426,7 +6397,7 @@ const iciciHpclCoralCreditCard = {
     minIncomeText:
       "₹20,000 per month for salaried individuals; ₹2.4 lakh annual income for self-employed individuals",
     creditScoreRequirement: "",
-    employmentType: "",
+    employmentType: " Salaried / Self-Employed",
   },
   rewards: {
     baseRate: 2,
@@ -6542,7 +6513,7 @@ const iciciMakeMyTripCreditCard = {
     minIncomeText:
       "₹20,000 per month for salaried individuals or ₹3 lakh per annum for self-employed individuals",
     creditScoreRequirement: "Good credit score without any defaults",
-    employmentType: "",
+    employmentType: "Salaried or Self-Employed",
   },
   rewards: {
     baseRate: 1,
@@ -6613,12 +6584,12 @@ const iciciMakeMyTripCreditCard = {
       perQuarter: 2,
       condition: "",
       partners: [],
-      details: "Complimentary domestic airport lounge access.",
+      details: "2 Complimentary domestic airport lounge access per quarter.",
     },
     international: {
       available: true,
       quantity: 1,
-      perQuarter: 1,
+      perQuarter: null,
       partners: [],
       details: "1 complimentary International airport lounge accesses.",
     },
@@ -6714,7 +6685,7 @@ const axisBankRewardsCreditCard = {
       },
       {
         description:
-          "10% off on orders via Swigy and Amazon fresh only on Wednesday",
+          "10% off on orders via Swiggy and Amazon fresh only on Wednesday",
         partners: ["Swiggy", "Amazon Fresh"],
         discount: 10,
         cap: null,
@@ -6769,7 +6740,7 @@ const axisBankRewardsCreditCard = {
       perQuarter: 2,
       condition: "",
       partners: [],
-      details: "",
+      details: "2 complimentary domestic airport lounge accesses per quarter",
     },
     international: {
       available: false,
@@ -6841,7 +6812,9 @@ const alturaCreditCard = {
         description:
           "2 complimentary lounge accesses per calendar quarter at railway stations.",
         type: "Railway Lounge Access",
-        quantity: null,
+        quantity: 8,
+        partners: ["IRCTC"],
+        condition: "2 visits per quarter",
       },
     ],
     shopping: [],
@@ -6884,12 +6857,12 @@ const alturaCreditCard = {
   ],
   loungeAccess: {
     domestic: {
-      available: true,
-      quantity: 2,
-      perQuarter: 2,
+      available: false,
+      quantity: 0,
+      perQuarter: 0,
       condition: "",
       partners: [],
-      details: "2 complimentary railway lounge accesses per calendar quarter.",
+      details: null,
     },
     international: {
       available: false,
@@ -6940,8 +6913,8 @@ const AlturaPlusCreditCard = {
   eligibilityExtras: {
     ageLimit:
       "21-60 years (Salaried), 25-65 years (Self-employed), 18+ (Add-on)",
-    minIncomeText: "",
-    creditScoreRequirement: "",
+    minIncomeText: null,
+    creditScoreRequirement: null,
     employmentType: "Salaried or Self-Employed",
   },
   rewards: {
@@ -7047,18 +7020,7 @@ const AlturaPlusCreditCard = {
     canBeWaivedOff: true,
     waiveOffSpendCondition: {
       currency: "INR",
-      conditions: [
-        {
-          year: "first",
-          amount: 20000,
-          duration: "within 90 days of card setup",
-        },
-        {
-          year: "secondOnwards",
-          amount: 80000,
-          duration: "in previous card anniversary year",
-        },
-      ],
+      amount: 80000,
     },
     freeStatus: "none",
     foreignCurrencyMarkupFee: null,
@@ -7126,15 +7088,7 @@ const AUHaryanaRoadwaysNCMCPrepaidCard = {
         condition: "",
       },
     ],
-    shopping: [
-      {
-        description:
-          "Use the card for retail transactions both online and offline.",
-        partners: [],
-        discount: null,
-        categories: [],
-      },
-    ],
+    shopping: [],
     fuel: {
       surchargeWaiver: null,
       minTransaction: null,
@@ -7244,9 +7198,10 @@ const axisBankMultiCurrencyForexCard = {
       {
         description:
           "Accepted at over 80 million merchants and 10 million ATMs worldwide.",
+        type: null,
+        quantity: null,
         partners: [],
-        discount: null,
-        cap: null,
+        condition: "",
       },
       {
         description: "Load up to 16 currencies on a single card",
@@ -7288,8 +7243,9 @@ const axisBankMultiCurrencyForexCard = {
     entertainment: [],
     insurance: [
       {
+        type: "Travel Insurance",
+        coverageAmount: 300000,
         description: "Insurance cover up to ₹3,00,000.",
-        value: 300000,
       },
     ],
     conciergeServices: "",
@@ -7335,7 +7291,7 @@ const axisBankMultiCurrencyForexCard = {
       currency: "INR",
       amount: null,
     },
-    freeStatus: "none",
+    freeStatus: null,
     foreignCurrencyMarkupFee: null,
   },
   idealFor: [
@@ -7503,7 +7459,7 @@ const axisBankWorldTravellerForexCard = {
       currency: "INR",
       amount: null,
     },
-    freeStatus: "none",
+    freeStatus: null,
     foreignCurrencyMarkupFee: null,
   },
   idealFor: [
@@ -7597,9 +7553,10 @@ const axisBankDinersForexCard = {
     entertainment: [],
     insurance: [
       {
+        type: "ATM assault or robbery Insurance",
         description:
           "Insurance cover up to ₹3,00,000, including ATM assault or robbery.",
-        value: "₹3,00,000",
+        coverageAmount: 300000,
       },
     ],
     conciergeServices: "",
@@ -7651,7 +7608,7 @@ const axisBankDinersForexCard = {
       currency: "INR",
       amount: null,
     },
-    freeStatus: "none",
+    freeStatus: null,
     foreignCurrencyMarkupFee: null,
   },
   idealFor: [
@@ -7718,7 +7675,6 @@ const citiDiamondPreferredCreditCard = {
           "Access to Citi Entertainment® for special access to tickets for concerts, sporting events, and more.",
         partners: [],
         discount: null,
-        cap: null,
       },
     ],
     insurance: [],
@@ -7782,7 +7738,7 @@ const citiDiamondPreferredCreditCard = {
       currency: "USD",
       amount: null,
     },
-    freeStatus: "lifetime free",
+    freeStatus: "lifetime",
     foreignCurrencyMarkupFee: 3,
   },
   idealFor: [
@@ -7830,15 +7786,18 @@ const citiStrataPremierCreditCard = {
       {
         category: "Hotels, Car Rentals, Attractions via CitiTravel.com per $1",
         rate: 10,
+        cap: null,
       },
       {
         category:
           "Air Travel, Other Hotel Purchases, Restaurants, Supermarkets, Gas Stations, EV Charging Stations per $1",
         rate: 3,
+        cap: null,
       },
       {
         category: "All Other Purchases per $1",
         rate: 1,
+        cap: null,
       },
     ],
     redemptionOptions: [
@@ -7916,14 +7875,14 @@ const citiStrataPremierCreditCard = {
           "Purchase Protection: Coverage for damaged or stolen items within 90 days of purchase, up to $10,000 per incident.",
         partners: [],
         discount: null,
-        cap: null,
+        catagories: null,
       },
       {
         description:
           "Extended Warranty: Extends manufacturer’s warranty by 24 months on eligible purchases.",
         partners: [],
         discount: null,
-        cap: null,
+        catagories: null,
       },
     ],
     fuel: {
@@ -7938,7 +7897,6 @@ const citiStrataPremierCreditCard = {
           "Access to Citi Entertainment® for special access to tickets for concerts, sporting events, and more.",
         partners: [],
         discount: null,
-        cap: null,
       },
     ],
     insurance: [],
@@ -8445,12 +8403,7 @@ const tmbPhoenixRuPayCreditCard = {
     dining: [],
     travel: [],
     shopping: [],
-    fuel: {
-      surchargeWaiver: null,
-      minTransaction: null,
-      maxTransaction: null,
-      monthlyCap: null,
-    },
+    fuel: {},
     entertainment: [],
     insurance: [],
     conciergeServices: null,
@@ -8458,6 +8411,7 @@ const tmbPhoenixRuPayCreditCard = {
       {
         name: "Interest free",
         description: "Interest free period of 45 days",
+        value: null,
       },
     ],
   },
@@ -8488,7 +8442,7 @@ const tmbPhoenixRuPayCreditCard = {
       currency: "INR",
       amount: 100000,
     },
-    freeStatus: "none",
+    freeStatus: "firstYear",
     foreignCurrencyMarkupFee: 3.5,
   },
   idealFor: ["Business Owners", "Tax Payers", "Utility Bill Payers"],
@@ -8531,12 +8485,7 @@ const tmbPlatinumCreditCard = {
     dining: [],
     travel: [],
     shopping: [],
-    fuel: {
-      surchargeWaiver: null,
-      minTransaction: null,
-      maxTransaction: null,
-      monthlyCap: null,
-    },
+    fuel: {},
     entertainment: [],
     insurance: [
       {
@@ -8716,7 +8665,7 @@ const americanExpressGoldCreditCard = {
     welcomeBenefits: [
       {
         description: "4,000 Bonus Membership Rewards® Points",
-        value: null,
+        value: 4000,
         condition:
           "Spend ₹10,000 within 90 days of card issuance and payment of the first year's annual fee",
       },
@@ -8868,6 +8817,8 @@ const americanexpressBlueCashEverydayCard = {
       {
         description: "Welcome Bonus",
         value: "$200 statement credit after $2,000 spend in first 6 months",
+        condition:
+          "Spend $2,000 in eligible purchases within the first 6 months.",
       },
     ],
     dining: [],
@@ -9035,8 +8986,6 @@ const americanexpressBlueCashPreferredCard = {
         quantity: null,
         partners: [],
         condition: "Traveling more than 100 miles from home.",
-        details:
-          "Provides medical, legal, and financial coordination and assistance services.",
       },
       {
         description:
@@ -9046,25 +8995,15 @@ const americanexpressBlueCashPreferredCard = {
         partners: [],
         condition:
           "Pay for the entire rental with your card and decline the rental company's collision damage waiver.",
-        details: "Coverage is secondary to your personal insurance.",
       },
     ],
     shopping: [
       {
         description:
-          "Purchase Protection covers eligible purchases against damage or theft for up to 90 days from the purchase date.",
-      },
-      {
-        description:
-          "Return Protection offers refunds for eligible items that retailers won't take back within 90 days of purchase.",
-      },
-      {
-        description:
-          "Extended Warranty adds up to one additional year to the original manufacturer's warranty of five years or less.",
-      },
-      {
-        description:
           "Complimentary ShopRunner membership for free two-day shipping and returns at over 100 online retailers.",
+        partners: ["ShopRunner"],
+        discount: null,
+        catagories: null,
       },
     ],
     fuel: {
@@ -9324,7 +9263,7 @@ const icaiExclusiveBOBCard = {
       },
       {
         description: "500 reward points on spending ₹5,000 within 60 days",
-        value: 125,
+        value: 500,
         condition: "Spend ₹5,000 within 60 days of card issuance",
       },
     ],
@@ -9466,7 +9405,7 @@ const icsiDiamondBOBCard = {
       },
       {
         description: "500 reward points on spending ₹5,000 within 60 days",
-        value: 125,
+        value: 500,
         condition: "Spend ₹5,000 within 60 days of card issuance",
       },
     ],
@@ -9797,7 +9736,7 @@ const iobGoldCreditCard = {
       currency: "INR",
       amount: 0,
     },
-    freeStatus: "lifetime",
+    freeStatus: null,
     foreignCurrencyMarkupFee: 2.5,
   },
 
@@ -9849,7 +9788,7 @@ const bobPrimeCard = {
       {
         description:
           "500 Reward Points on spending ₹5,000 within 60 days of card issuance",
-        value: 100,
+        value: 500,
         condition: "Spend ₹5,000 within 60 days of card issuance",
       },
     ],
@@ -10012,6 +9951,8 @@ const makeMyTripSignatureICICIcard = {
         type: "Domestic",
         quantity: 1,
         partners: ["RailYatri"],
+        condition:
+          "Spend ₹10,000 in the previous quarter to unlock complimentary access for the subsequent quarter.",
       },
     ],
     shopping: [],
@@ -10127,7 +10068,7 @@ const irctcRBLBankRuPayCard = {
         type: "Domestic",
         quantity: 8,
         partners: ["IRCTC Lounges"],
-        condition: "",
+        condition: null,
       },
     ],
     shopping: [],
@@ -10264,13 +10205,7 @@ const iciciBankDiamantCreditCard = {
         discount: null,
       },
     ],
-    insurance: [
-      {
-        type: "Comprehensive Insurance Cover",
-        coverageAmount: null,
-        description: null,
-      },
-    ],
+    insurance: [],
     conciergeServices:
       "Travel & lifestyle privileges, medical privileges, emergency auto assistance",
     other: [
@@ -10287,7 +10222,7 @@ const iciciBankDiamantCreditCard = {
   loungeAccess: {
     domestic: {
       available: true,
-      quantity: "Unlimited",
+      quantity: null,
       perQuarter: null,
       condition: "",
       partners: ["Dreamfolks", "MasterCard Lounge"],
@@ -10295,7 +10230,7 @@ const iciciBankDiamantCreditCard = {
     },
     international: {
       available: true,
-      quantity: "Unlimited",
+      quantity: null,
       perQuarter: null,
       partners: ["Dreamfolks", "MasterCard Lounge"],
       details: "Unlimited access to international lounges",
@@ -10365,7 +10300,7 @@ const iciciHpclSuperSaverCard = {
     welcomeBenefits: [
       {
         description: "2,000 reward points on spending ₹5,000 within 30 days",
-        value: null,
+        value: 2000,
         condition: "Post joining fee payment and ₹5,000 spend",
       },
       {
@@ -10377,9 +10312,9 @@ const iciciHpclSuperSaverCard = {
     dining: [
       {
         description: "Dining discounts via ICICI Culinary Treats Program",
-        type: "Dining",
-        value: null,
-        condition: "",
+        partners: ["ICICI Culinary Treats Program"],
+        discount: null,
+        cap: null,
       },
     ],
     travel: [],
@@ -10402,7 +10337,9 @@ const iciciHpclSuperSaverCard = {
     conciergeServices: null,
     other: [
       {
+        name: "Roadside Assistance",
         description: "Complimentary 24x7 Roadside Assistance (RSA) services",
+        value: null,
       },
     ],
   },
@@ -10415,7 +10352,7 @@ const iciciHpclSuperSaverCard = {
       perQuarter: 1,
       condition: "on completion of spend criteria",
       partners: [],
-      details: null,
+      details: "1 complimentary domestic lounge access per quarter .",
     },
     international: {
       available: false,
@@ -10995,15 +10932,18 @@ const cityUnionBankSimplySaveCard = {
     bonusCategories: [
       {
         category: "Dining",
-        points: 10,
+        rate: 10,
+        cap: null,
       },
       {
         category: "Movies",
-        points: 10,
+        rate: 10,
+        cap: null,
       },
       {
         category: "Departmental Stores",
-        points: 10,
+        rate: 10,
+        cap: null,
       },
     ],
     redemptionOptions: [
@@ -11018,7 +10958,7 @@ const cityUnionBankSimplySaveCard = {
       {
         description:
           "2,000 bonus Reward Points on spending ₹2,000 or more within the first 60 days",
-        value: null,
+        value: 2000,
         condition: "Spend ₹2,000 or more within 60 days of card issuance",
       },
     ],
@@ -11142,12 +11082,13 @@ const cityUnionBankSBIPrimeCard = {
         type: "Personal Accident Cover",
         coverageAmount: 100000,
         description: "Air accidental liability cover of ₹50 lakh",
-      },  
+      },
     ],
     conciergeServices: null,
     other: [
       {
-        description: "Club Vistara Membership",
+        name: "Club Vistara Membership",
+        description: "Complimentary Club Vistara Membership",
         value: null,
       },
     ],
@@ -11155,16 +11096,16 @@ const cityUnionBankSBIPrimeCard = {
   offers: [],
   milestones: [
     {
-      description:
+      spendAmount: 50000,
+      benefit:
         "Pizza Hut e-Voucher worth ₹1,000 on quarterly spends of ₹50,000",
-      value: 1000,
-      condition: "Spend ₹50,000 in a calendar quarter",
+      frequency: "Quarterly",
     },
     {
-      description:
+      spendAmount: 500000,
+      benefit:
         "E-Gift Voucher worth ₹7,000 from Yatra.com/Pantaloons on annual spends of ₹5 Lakhs",
-      value: 7000,
-      condition: "Spend ₹5 Lakhs in a year",
+      frequency: "Annual",
     },
   ],
   loungeAccess: {
@@ -11174,7 +11115,7 @@ const cityUnionBankSBIPrimeCard = {
       perQuarter: 2,
       condition: null,
       partners: [],
-      details: "Access to domestic lounges as per network partner's terms",
+      details: "2 complimentary domestic lounge access per quarter",
     },
     international: {
       available: true,
